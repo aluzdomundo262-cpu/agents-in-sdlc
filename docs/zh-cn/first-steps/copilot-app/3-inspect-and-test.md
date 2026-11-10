@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-12
 ---
 
-会话已经完成实际工作，现在有内容可以检查了。确认智能体的工作目标，然后让它在集成浏览器中操作测验，报告实际发生的情况，而不是预期会发生的情况。
+会话已经完成实际工作，现在可以检查了。先确认智能体当前处理的项目，再让它在集成浏览器中操作测验，并汇报实际结果，而不是只描述预期行为。
 
 本课将：
 
@@ -18,7 +18,7 @@ lastUpdated: 2026-10-12
 
 选择标题栏中的 **Build a space quiz**，打开项目和会话菜单。
 
-![Build a space quiz 标题菜单示意图。它标明 space-quiz 项目的文件夹会话，并提供路径、远程控制、名称、嵌套会话、会话 ID、共享、归档和删除控件。](../../../_images/first-steps-app-project-details.svg)
+![Build a space quiz 标题菜单示意图，标明 space-quiz 项目的文件夹会话，并提供路径、远程控制、名称、嵌套会话、会话 ID、共享、归档和删除控件。](../../../_images/first-steps-app-project-details.svg)
 
 此菜单标明会话正在处理的项目，并提供管理会话的控件。
 
@@ -30,7 +30,7 @@ lastUpdated: 2026-10-12
 
 选择麦克风左侧的使用情况控件，打开计划和会话使用情况菜单。麦克风位于使用情况控件和 **Send** 之间。
 
-![使用情况菜单示意图，麦克风位于使用情况控件和 Send 按钮之间。它显示 GitHub Copilot Pro+ 计划、会话 AI 额度、输入和输出 token 数量，以及 40 万 token 中 16% 的上下文使用量。](../../../_images/first-steps-app-usage-details.svg)
+![使用情况菜单示意图，麦克风位于使用情况控件和 Send 按钮之间；菜单显示 GitHub Copilot Pro+ 计划、会话 AI 额度、输入和输出 token 数量，以及 40 万 token 中 16% 的上下文使用量。](../../../_images/first-steps-app-usage-details.svg)
 
 此菜单将帐户和会话使用情况与项目控件分开显示：
 
@@ -62,6 +62,6 @@ Run a browser-level smoke test for the quiz in the integrated browser. Check key
 
 ## 总结与后续步骤
 
-已经确认会话的项目和使用详情，并通过浏览器级冒烟测试验证了测验。继续学习[第 4 课：记录项目指令][next-lesson]。
+已查看会话的项目和使用详情，并通过浏览器级冒烟测试验证测验行为；发现问题时进行了修复。继续学习[第 4 课：记录项目指令][next-lesson]。
 
 [next-lesson]: ../4-project-instructions/

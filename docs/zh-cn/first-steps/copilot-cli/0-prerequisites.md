@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-让智能体进入终端。确认所需条件，安装 GitHub Copilot CLI，登录，并准备好从空文件夹发出第一个请求。
+在终端中使用智能体。确认所需条件，安装 GitHub Copilot CLI，登录，并准备好从空文件夹发出第一个请求。
 
 本课将：
 

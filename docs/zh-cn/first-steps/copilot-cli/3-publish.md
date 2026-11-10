@@ -44,7 +44,7 @@ Initialize this folder as a Git repository, create an initial commit, and create
 
 ## 总结与后续步骤
 
-项目现在已成为 GitHub 存储库，并有了可用于比较的已验证版本。继续学习[第 4 课：并行处理议题][next-lesson]。
+项目现已发布到 GitHub，并有了可用于比较的已验证版本。继续学习[第 4 课：并行处理议题][next-lesson]。
 
 [gh-cli]: https://cli.github.com/
 [next-lesson]: ../4-issues-and-sessions/

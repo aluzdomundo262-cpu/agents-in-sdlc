@@ -28,7 +28,7 @@ lastUpdated: 2026-10-05
 4. 在创建拉取请求时、从 VS Code 的 **GitHub** 视图，或在 GitHub 上请求 **Copilot code review**。
 5. 让 Copilot 通过 GitHub MCP 检查拉取请求、解决合并冲突、处理审查评论，并调查失败的 CI 检查。
 6. 在集成浏览器中重新测试，审查每项拟议的更改，并更新分支。
-7. 检查和审查完成后，让智能体合并，或通过 GitHub 集成合并。
+7. 检查项和审查均完成后，让智能体合并，或通过 GitHub 集成合并。
 
 > [!NOTE]
 > 也可以随时在聊天中让 Copilot 执行这些操作。值得先学会 **Source Control** 路径，因为它能根据实际更改编写提交和拉取请求文本。

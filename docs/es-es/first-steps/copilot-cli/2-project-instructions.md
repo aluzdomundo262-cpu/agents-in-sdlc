@@ -1,12 +1,12 @@
 ---
-title: "Lección 2 - Recoger las instrucciones del proyecto"
+title: "Lección 2 - Crear instrucciones para el proyecto"
 description: "Ejecuta /init para generar instrucciones del agente que describan el Space Quiz terminado y adáptalas a tu forma de trabajar."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-10-05
 ---
 
-Con un cuestionario funcional en el disco, genera instrucciones del agente que describan el proyecto real. Cada sesión futura lee estas instrucciones antes de empezar a trabajar, así que te ahorran repetir las mismas directrices en cada prompt.
+Con un cuestionario funcional en el disco, genera instrucciones del agente que describan el proyecto real. Cada sesión futura las lee antes de empezar a trabajar, así que no tendrás que repetir las mismas indicaciones en cada solicitud.
 
 En esta lección:
 
@@ -14,13 +14,13 @@ En esta lección:
 - revisarás el archivo generado antes de aceptarlo.
 - reducirás y personalizarás las instrucciones.
 
-## Recoge las reglas con `/init`
+## Genera instrucciones con `/init`
 
-Incluye un prompt después de `/init`. Si envías el comando sin texto adicional, puede aparecer `Command input required`.
+Añade una solicitud después de `/init`. Si envías el comando sin texto adicional, puede aparecer `Command input required`.
 
-1. Ejecuta `/init create simple rules for the project` en la sesión.
+1. Ejecuta `/init crea unas reglas sencillas para el proyecto` en la sesión.
 2. Revisa el archivo de instrucciones generado antes de aceptarlo.
-3. Conserva solo las directrices que correspondan a este proyecto: un único archivo, sin dependencias, accesible y probado en el explorador.
+3. Conserva solo las directrices que correspondan a este proyecto: un único archivo, sin dependencias, accesible y probado en el navegador.
 
 > [!IMPORTANT]
 > **El orden importa**
@@ -29,7 +29,7 @@ Incluye un prompt después de `/init`. Si envías el comando sin texto adicional
 
 ## Adáptalo a ti
 
-El archivo de instrucciones no sirve solo para recoger datos del proyecto. Añade los detalles que de otro modo repetirías en cada prompt, como tu forma preferida de escribir código, las convenciones de nomenclatura, las bibliotecas que deben evitarse y la cantidad de comentarios que quieres. Cada sesión futura lee este archivo antes de leer tu prompt.
+El archivo de instrucciones no sirve solo para recoger datos del proyecto. Añade los detalles que de otro modo repetirías en cada solicitud, como tu forma preferida de escribir código, las convenciones de nomenclatura, las bibliotecas que deben evitarse y la cantidad de comentarios que quieres. Cada sesión futura lee este archivo antes de la solicitud.
 
 ## Resumen y pasos siguientes
 

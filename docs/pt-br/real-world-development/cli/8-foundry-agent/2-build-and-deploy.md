@@ -22,7 +22,7 @@ O Tailspin Toys precisa de mais do que uma resposta isolada de um modelo. Os apo
 
 Este módulo dá continuidade ao modelo funcional do Módulo 1. Você manterá o mesmo projeto e a mesma implantação em vez de criar outro conjunto de recursos do Azure.
 
-1. Volte ao repositório do Tailspin Toys na branch `foundry-agent-cli` e à sessão do Copilot CLI do Módulo 1.
+1. Volte ao Codespace e abra o repositório do Tailspin Toys na branch `foundry-agent-cli` e a sessão do Copilot CLI do Módulo 1.
 2. Confirme que `db/catalog.json` está disponível e que você ainda tem o projeto do Foundry, a implantação do modelo selecionado e a sessão autenticada no Azure usados no teste do modelo. Se ainda não concluiu essa configuração, termine primeiro [Prepare o projeto e o modelo][previous-lesson].
 
 > [!IMPORTANT]
@@ -88,7 +88,7 @@ Agora, você pedirá à skill do Microsoft Foundry para gerar a estrutura do age
 
 ## Teste o agente localmente
 
-Agora, você verificará a fundamentação das respostas e o comportamento de conversação do agente por meio da Responses API local. O serviço local do agente ocupa seu terminal enquanto está em execução, portanto, mantenha o Copilot CLI aberto no terminal atual e inicie o agente em um segundo terminal.
+Agora, você verificará se as respostas se mantêm fundamentadas no catálogo e se o agente preserva o contexto da conversa por meio da Responses API local, uma interface de programação de aplicações. O serviço local do agente ocupa seu terminal enquanto está em execução, portanto, mantenha o Copilot CLI aberto no terminal atual e inicie o agente em um segundo terminal.
 
 1. Abra outro terminal usando <kbd>Ctrl</kbd>+<kbd>\`</kbd>.
 2. Na raiz do repositório do Tailspin Toys, execute:
@@ -128,7 +128,7 @@ Com os testes de aceitação locais aprovados, você está pronto para implantar
     Continue with the Microsoft Foundry Skill workflow. Review the hosted agent for deployment readiness, then deploy it to Microsoft Foundry, show the deployment status and playground link, and invoke it remotely with: "I love puzzle games about tracking down bugs. What should I back?"
     ```
 
-3. Se for solicitado que você selecione uma fonte para a suíte de avaliação, escolha **Não, configurar mais tarde**.
+3. Se for solicitado que você selecione uma fonte para a suíte de avaliação, escolha **No, set it up later**.
 
     ![Status da implantação do agente hospedado e link do playground](../../../../_images/cli-8-hosted-agent-deployment.png)
 

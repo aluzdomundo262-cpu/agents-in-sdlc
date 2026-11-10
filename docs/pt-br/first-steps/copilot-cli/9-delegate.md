@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-Você entregou um recurso. Agora que sabe como é um bom resultado, vale a pena desenvolver uma ideia inteiramente nova em paralelo, em vez de colocá-la no centro do seu trabalho. Nesta lição, você delegará um **relatório de missão compartilhável** que transforma uma partida concluída em um cartão que o jogador pode publicar.
+Você entregou um recurso. Agora que sabe reconhecer um bom resultado, vale a pena delegar uma ideia inteiramente nova para que seja desenvolvida em paralelo, sem bloquear seu trabalho. Nesta lição, você delegará um **relatório de missão compartilhável** que transforma uma partida concluída em um cartão que o jogador pode publicar.
 
 Nesta lição, você vai:
 

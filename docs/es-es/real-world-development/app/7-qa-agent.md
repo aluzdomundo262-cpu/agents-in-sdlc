@@ -1,12 +1,12 @@
 ---
-title: "Lección 7 - Crear y utilizar un agente de QA"
-description: "Crea un perfil de QA que parta de los requisitos y combine cobertura de pruebas, la habilidad quality-checks y observaciones directas del navegador."
+title: "Lección 7 - Crear y utilizar un agente de control de calidad"
+description: "Crea un perfil de control de calidad (QA) que parta de los requisitos y combine cobertura de pruebas, la habilidad quality-checks y observaciones directas del navegador."
 authors:
   - geektrainer
 lastUpdated: 2026-09-17
 ---
 
-Has utilizado la habilidad `quality-checks` para ejecutar comprobaciones automatizadas y MCP de Playwright para observar la experiencia de filtrado en un navegador. Ahora reunirás estas capacidades en un agente personalizado con un proceso de QA claramente definido.
+Has utilizado la habilidad `quality-checks` para ejecutar comprobaciones automatizadas y el servidor Model Context Protocol (MCP) de Playwright para observar la experiencia de filtrado en un navegador. Ahora reunirás estas capacidades en un agente personalizado con un proceso de control de calidad (QA) claramente definido.
 
 En esta lección:
 
@@ -22,7 +22,7 @@ Tailspin Toys quiere revisar de forma coherente los requisitos, la calidad del c
 
 Un agente personalizado es una versión especializada de Copilot definida en un perfil Markdown. El perfil describe el propósito, las instrucciones y las herramientas disponibles del agente. En este taller, definirás un rol de QA en `.github/agents/qa.agent.md` y lo seleccionarás en la aplicación.
 
-Las personalizaciones que has creado tienen funciones distintas. Las instrucciones del repositorio describen los estándares del equipo. La habilidad quality-checks reúne comprobaciones repetibles. MCP de Playwright proporciona herramientas de navegador. El perfil de QA indica a Copilot cómo usar esas capacidades para evaluar requisitos e informar de sus conclusiones. No las sustituye ni requiere otra sesión de agente.
+Las personalizaciones que has creado tienen funciones distintas. Las instrucciones del repositorio describen los estándares del equipo. La habilidad `quality-checks` reúne comprobaciones repetibles. MCP de Playwright proporciona herramientas de navegador. El perfil de QA indica a Copilot cómo usar esas capacidades para evaluar requisitos e informar de sus conclusiones. No las sustituye ni requiere otra sesión de agente.
 
 ## Crear el perfil de QA
 
@@ -38,6 +38,8 @@ Antes de abrir la PR de la funcionalidad, pedirás a Copilot que cree un perfil 
     ```
 
 ## Examinar el perfil
+
+Antes de utilizar el agente, revisa su perfil para confirmar que Copilot ha definido el proceso de QA y los límites previstos.
 
 1. Abre **Changes** y selecciona `.github/agents/qa.agent.md`.
 2. Lee el frontmatter. `description` es obligatorio; `name` es opcional, pero incluirlo proporciona al agente un nombre visible claro.

@@ -46,7 +46,7 @@ Para facilitar o início, o projeto inicial já inclui um conjunto de arquivos d
 
    ![Barra de ferramentas superior do aplicativo GitHub Copilot com uma seta apontando para o botão Toggle review panel à direita de Create PR](../../../_images/app-2-review-panel.png)
 
-3. Selecione o ícone **+** para "Open in panel" e abrir um novo canvas.
+3. Selecione o ícone **+** para **Open in panel** e abrir um novo canvas.
 4. Selecione **Files**.
 5. Selecione o ícone **Gear** e verifique se há uma marca ao lado de **Show hidden files**.
 6. Acesse `.github/copilot-instructions.md`.
@@ -64,8 +64,9 @@ Embora os arquivos existentes sejam um bom começo, ainda há algumas lacunas. V
 > Como os arquivos de instruções têm grande impacto sobre o código gerado pelo Copilot, verifique com cuidado se eles fornecem orientações claras. Você pode pedir ao Copilot que crie uma primeira versão e depois revisá-la para confirmar se as atualizações atendem aos requisitos. Também pode consultar uma [coleção de arquivos de instruções no Awesome Copilot][awesome-copilot], que serve como um ótimo ponto de partida.
 
 1. No mesmo canvas de arquivos, acesse `.github/copilot-instructions.md`.
-2. Localize o cabeçalho **Code formatting requirements**, aproximadamente no meio do arquivo.
-3. Adicione o seguinte como o último item abaixo desse cabeçalho:
+2. Alterne para a visualização editável do código selecionando o botão de código (ícone `<>`) na barra de ferramentas do arquivo.
+3. Localize o cabeçalho **Code formatting requirements**, aproximadamente no meio do arquivo.
+4. Adicione o seguinte como o último item abaixo desse cabeçalho:
 
    ```plaintext
    All new TypeScript should contain TSDocs comments for documentation purposes.

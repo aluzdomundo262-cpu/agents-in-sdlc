@@ -34,7 +34,7 @@ O agente hospedado existente é o destino da integração. A Tailspin Toys é um
 Um proxy local do Azure Functions em `/api` armazena os detalhes de conexão e encaminha as solicitações enquanto o site é executado localmente. O Copilot pode usar **Azure skills** para prepará-lo e validá-lo.
 
 > [!IMPORTANT]
-> Este proxy do workshop é apenas para desenvolvimento local. Não o implante como um endpoint público anônimo. A produção exige autenticação específica da aplicação e controles contra abuso, incluindo limites de taxa ou cotas, restrições de CORS, monitoramento e controles de custo.
+> Este proxy do workshop é apenas para desenvolvimento local. Não o implante como um endpoint público anônimo. A produção exige autenticação específica da aplicação e controles contra abuso, incluindo limites de taxa ou cotas, restrições de compartilhamento de recursos entre origens (CORS), monitoramento e controles de custo.
 
 1. Peça ao Copilot para criar o proxy:
 
@@ -49,7 +49,7 @@ Um proxy local do Azure Functions em `/api` armazena os detalhes de conexão e e
    Start the local Functions host and test /api/concierge by asking "Which games are under $30?" Show me the sanitized response and confirm that no credentials or internal conversation identifiers are returned.
    ```
 
-4. Verifique a resposta no terminal. Espere um JSON válido com uma propriedade `response` contendo a resposta, sem informações de preço inventadas e sem credenciais ou identificadores internos de conversa. Se uma verificação falhar, peça ao Copilot para corrigi-la e repita o teste do backend.
+4. Verifique a resposta no terminal. Espere um objeto válido no formato JavaScript Object Notation (JSON), com uma propriedade `response` contendo a resposta, sem informações de preço inventadas e sem credenciais ou identificadores internos de conversa. Se uma verificação falhar, peça ao Copilot para corrigi-la e repita o teste do backend.
 5. Selecione **Keep** para manter as alterações e use **/clear** para começar uma nova conversa para o widget no mesmo repositório e na mesma branch. Mantenha a configuração do proxy local e a conexão com o agente hospedado existente.
 
 ## Criar e testar o widget

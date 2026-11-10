@@ -1,12 +1,12 @@
 ---
-title: "Lição 7 - Criar e usar um agente de QA"
+title: "Lição 7 - Criar e usar um agente de garantia de qualidade (QA)"
 description: "Crie um perfil de QA que parta dos requisitos e combine cobertura de testes, a skill quality-checks e evidências diretas do navegador."
 authors:
   - geektrainer
 lastUpdated: 2026-09-17
 ---
 
-Você usou a skill `quality-checks` para executar verificações automatizadas e o MCP do Playwright para observar a experiência de filtragem em um navegador. Agora, reunirá essas capacidades em um agente personalizado com um processo de QA claramente definido.
+Você usou a skill `quality-checks` para executar verificações automatizadas e o Model Context Protocol (MCP) do Playwright para observar a experiência de filtragem em um navegador. Agora, reunirá essas capacidades em um agente personalizado com um processo de garantia de qualidade (QA) claramente definido.
 
 Nesta lição, você vai:
 

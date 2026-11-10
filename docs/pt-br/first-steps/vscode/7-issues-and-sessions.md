@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-Com o MCP do GitHub habilitado, o Copilot pode criar e ler issues diretamente pela conversa.
+Com o Model Context Protocol (MCP) do GitHub habilitado, o Copilot pode criar e ler issues diretamente pela conversa.
 
 Nesta lição, você vai:
 
@@ -31,7 +31,7 @@ Review the space quiz and suggest three focused feature ideas. Use the GitHub to
 
 ## Resumo e próximos passos
 
-Você criou issues e implementou uma delas em sua própria sessão. Continue com a [Lição 8: Revisar e mesclar][next-lesson].
+Você criou issues, implementou e verificou uma delas em sua própria sessão. Continue com a [Lição 8: Revisar e mesclar][next-lesson].
 
 [lesson-3]: ../3-inspect-and-test/
 [next-lesson]: ../8-review-and-merge/

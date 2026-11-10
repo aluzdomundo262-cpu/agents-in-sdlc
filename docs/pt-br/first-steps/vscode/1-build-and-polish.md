@@ -43,6 +43,6 @@ O navegador integrado pode enviar um elemento específico diretamente para a con
 
 ## Resumo e próximos passos
 
-Você criou, visualizou e aprimorou o quiz sem sair do editor. Continue com a [Lição 2: Registrar instruções do projeto][next-lesson].
+Você criou o quiz, visualizou-o no navegador integrado, selecionou e aprimorou um elemento sem sair do editor. Continue com a [Lição 2: Registrar instruções do projeto][next-lesson].
 
 [next-lesson]: ../2-project-instructions/

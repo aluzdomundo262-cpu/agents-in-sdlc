@@ -1,25 +1,25 @@
 ---
 title: "Lección 10 - Repaso y pasos siguientes"
-description: "Repasa el flujo de trabajo de VS Code y encuentra recursos para seguir aprendiendo."
+description: "Repasa el flujo de trabajo de Visual Studio Code (VS Code) y encuentra recursos para seguir aprendiendo."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
 ---
 
-Has completado el ciclo de trabajo del editor: has creado en el editor, recogido las instrucciones, probado en el explorador integrado, planificado antes de editar, combinado con las herramientas de GitHub y delegado la siguiente idea a una sesión en la nube.
+Has completado el ciclo de trabajo del editor: has creado el cuestionario en el editor, has generado las instrucciones, lo has probado en el navegador integrado, has planificado antes de editar, has usado las herramientas de GitHub para fusionar los cambios y has delegado la siguiente idea a una sesión en la nube.
 
 ## Qué has completado
 
 Has:
 
 - confirmado que Copilot Chat funciona y añadido la extensión GitHub Pull Requests and Issues.
-- creado el cuestionario y perfeccionado un elemento seleccionado en el explorador integrado.
+- creado el cuestionario y perfeccionado un elemento seleccionado en el navegador integrado.
 - generado `.github/copilot-instructions.md` con `/init`.
 - inspeccionado el contexto del chat y realizado una prueba de humo antes de que Git escribiera nada.
 - publicado con **Source Control** y un mensaje de commit redactado por Copilot.
 - planificado una funcionalidad en el modo Plan antes de modificar nada.
-- habilitado GitHub MCP y creado incidencias desde el chat.
-- creado, revisado y combinado una solicitud de incorporación de cambios desde VS Code.
+- habilitado el servidor de Model Context Protocol (MCP) de GitHub y creado incidencias desde el chat.
+- creado, revisado y fusionado una solicitud de incorporación de cambios desde VS Code.
 - delegado una funcionalidad a una sesión en la nube.
 
 ## Sigue explorando

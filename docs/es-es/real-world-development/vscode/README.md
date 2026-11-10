@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-06-30
 ---
 
-**[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** en VS Code lleva GitHub Copilot al editor de código que ya utilizas. Al trabajar en Visual Studio Code (y GitHub Codespaces), dirigirás Copilot Chat en modo agente, conectarás herramientas externas mediante MCP y utilizarás agentes personalizados, todo ello sin salir del IDE, donde Copilot puede ver todos tus archivos, el terminal y los problemas.
+**[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** en VS Code lleva GitHub Copilot al editor de código que ya utilizas. Al trabajar en Visual Studio Code (y GitHub Codespaces), dirigirás Copilot Chat en modo agente, conectarás herramientas externas mediante Model Context Protocol (MCP) y utilizarás agentes personalizados, todo ello sin salir del entorno de desarrollo integrado (IDE), donde Copilot puede ver tus archivos, el terminal y el panel de problemas.
 
 Empezarás por añadir instrucciones personalizadas y observar cómo las sigue Copilot; después, utilizarás el modo agente para crear una funcionalidad de filtrado que abarque la interfaz, la capa de datos y las pruebas. A continuación, conectarás el servidor MCP de Playwright y dejarás que Copilot maneje un navegador para probar la funcionalidad antes de abrir una solicitud de incorporación de cambios. Por último, revisarás y utilizarás un agente personalizado para trabajar en la accesibilidad y, después, supervisarás, dirigirás e iterarás sobre los cambios de Copilot, todo ello sin salir del editor.
 
@@ -31,7 +31,7 @@ Antes de asistir a este taller, asegúrate de tener:
 - [ ] Acceso a GitHub Codespaces
 
 > [!TIP]
-> ¿No tienes un plan de pago? Los estudiantes verificados pueden obtener GitHub Copilot gratis a través de [GitHub Education][callout-student-plan-education]. El plan **Copilot Student** incluye las funcionalidades de agente, MCP, revisión de código y Copilot CLI que utiliza este taller, por lo que puedes completar todos los itinerarios con él.
+> ¿No tienes un plan de pago? Los estudiantes verificados pueden obtener GitHub Copilot gratis a través de [GitHub Education][callout-student-plan-education]. El plan **Copilot Student** incluye las funciones de agente, MCP, revisión de código y la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI) que utiliza este taller, por lo que puedes completar todos los itinerarios con él.
 
 [callout-student-plan-education]: https://github.com/education/students
 ## Empezar

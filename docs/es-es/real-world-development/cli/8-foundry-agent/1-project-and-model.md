@@ -1,6 +1,6 @@
 ---
 title: "Módulo 1 - Prepara el proyecto y el modelo"
-description: "Configura las herramientas de Azure, exporta el catálogo de Tailspin y selecciona y prueba un modelo de Foundry con GitHub Copilot CLI."
+description: "Configura las herramientas de Azure, exporta el catálogo de Tailspin y selecciona y prueba un modelo de Foundry con la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI)."
 authors:
   - juliamuiruri4
 lastUpdated: 2026-09-16
@@ -20,14 +20,14 @@ Tailspin Toys necesita un concierge que distinga entre los datos del catálogo y
 
 ## Requisitos previos y configuración
 
-Usarás Azure para hospedar el Backer Concierge y Copilot CLI para guiar el trabajo. Primero, prepara las herramientas de línea de comandos y el complemento que permiten a Copilot trabajar con tus recursos de Azure.
+Usarás Azure para hospedar el Backer Concierge y la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI) para guiar el trabajo. Primero, prepara las herramientas de línea de comandos y el complemento que permiten a Copilot trabajar con tus recursos de Azure.
 
 > [!IMPORTANT]
 > Las [instrucciones de limpieza][cleanup] cubren tanto la posibilidad de parar después de este módulo como la de terminar la serie.
 
-1. Confirma que tienes una suscripción de Azure. Si necesitas una, las opciones disponibles incluyen una [suscripción gratuita de Azure con 200 USD de crédito][azure-free] o [Azure for Students con 100 USD de crédito][azure-students].
+1. Confirma que tienes una suscripción de Azure. Si necesitas una, las opciones disponibles incluyen una [suscripción gratuita de Azure con un crédito de 200 dólares estadounidenses (USD)][azure-free] o [Azure for Students con 100 USD de crédito][azure-students].
 2. Vuelve a tu codespace de Tailspin Toys y abre un terminal.
-3. Instala Azure CLI en el contenedor de desarrollo:
+3. Instala la interfaz de línea de comandos de Azure (Azure CLI) en el contenedor de desarrollo:
 
     ```bash
     curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
@@ -43,7 +43,7 @@ Usarás Azure para hospedar el Backer Concierge y Copilot CLI para guiar el trab
     ```
 
 6. Inicia sesión en Azure Developer CLI con `azd auth login` y comprueba que estás usando la suscripción correcta con `azd config show`.
-7. Instala la extensión de Foundry para Azure Developer CLI (azd):
+7. Instala la extensión de Foundry para Azure Developer CLI (`azd`):
 
     ```bash
     azd ext install microsoft.foundry
@@ -56,7 +56,7 @@ Usarás Azure para hospedar el Backer Concierge y Copilot CLI para guiar el trab
     /plugin marketplace add microsoft/azure-skills
     ```
 
-10. Instala el [complemento Azure Skills][azure-skills], que añade habilidades de Azure, Azure MCP Server y Foundry MCP Server a GitHub Copilot CLI:
+10. Instala el [complemento Azure Skills][azure-skills], que añade habilidades de Azure y servidores basados en el protocolo Model Context Protocol (MCP), incluidos Azure MCP Server y Foundry MCP Server, a GitHub Copilot CLI:
 
     ```text
     /plugin install azure@azure-skills
@@ -121,7 +121,7 @@ Antes de que Copilot cree recursos de Azure o añada código del agente, usarás
 
 ## Configura un proyecto de Foundry y un modelo
 
-El agente necesita un proyecto de Foundry y un modelo desplegado. Usarás la habilidad Microsoft Foundry para seleccionarlos según la disponibilidad y la cuota actuales de tu suscripción.
+El agente necesita un proyecto de Foundry y un modelo desplegado. Usarás la habilidad de Microsoft Foundry para seleccionarlos según la disponibilidad y la cuota actuales de tu suscripción.
 
 1. Pide a Copilot que cree el proyecto. Antes de aprobar la creación de recursos, comprueba la suscripción, la región y la cuota seleccionadas, así como el coste estimado:
 

@@ -1,6 +1,6 @@
 ---
-title: "Lección 8 - Crear, revisar y combinar desde la CLI"
-description: "Inspecciona las diferencias finales, crea una solicitud de incorporación de cambios con /pr create, atiende los comentarios y combina con /pr agentmerge."
+title: "Lección 8 - Crear, revisar y fusionar desde la CLI"
+description: "Inspecciona las diferencias finales, crea una solicitud de incorporación de cambios con /pr create, atiende los comentarios y fusiona con /pr agentmerge."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
@@ -13,18 +13,18 @@ En esta lección:
 - inspeccionarás los archivos modificados por última vez.
 - crearás una solicitud de incorporación de cambios desde la rama actual.
 - revisarás la solicitud de incorporación de cambios y atenderás los comentarios.
-- validarás y combinarás la solicitud de incorporación de cambios con `/pr agentmerge`.
+- validarás y fusionarás la solicitud de incorporación de cambios con `/pr agentmerge`.
 
-## Crea, revisa y combina
+## Crea, revisa y fusiona
 
 1. Ejecuta `/diff` para inspeccionar los archivos modificados por última vez.
 2. Pide a Copilot que cree una solicitud de incorporación de cambios desde la rama actual o ejecuta `/pr create`.
 3. Abre la pestaña **Pull requests** del panel lateral para comprobar el título, la descripción, los archivos y las comprobaciones de estado.
-4. Aplica los comentarios que requieran cambios, comprueba el resultado en el explorador y responde con lo que ha cambiado.
-5. Cuando la solicitud de incorporación de cambios esté lista, ejecuta `/pr agentmerge` para validarla y combinarla una vez que se hayan obtenido las confirmaciones necesarias y hayan pasado las comprobaciones.
+4. Aplica los comentarios que requieran cambios, comprueba el resultado en el navegador y responde con lo que ha cambiado.
+5. Cuando la solicitud de incorporación de cambios esté lista, ejecuta `/pr agentmerge` para validarla y fusionarla una vez que se hayan obtenido las confirmaciones necesarias y hayan pasado las comprobaciones.
 
 ## Resumen y pasos siguientes
 
-Has creado, revisado y combinado una solicitud de incorporación de cambios sin salir de la terminal. Continúa con la [lección 9: Delegar trabajo cuando confíes en el ciclo][next-lesson].
+Has creado, revisado y fusionado una solicitud de incorporación de cambios sin salir de la terminal. Continúa con la [lección 9: Delegar trabajo cuando confíes en el ciclo][next-lesson].
 
 [next-lesson]: ../9-delegate/

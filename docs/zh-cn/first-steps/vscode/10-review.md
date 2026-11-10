@@ -8,7 +8,7 @@ lastUpdated: 2026-09-28
 
 已经完成以编辑器为中心的工作流：在编辑器中构建、记录指令、在集成浏览器中测试、先规划再编辑、通过 GitHub 工具合并，并将下一个想法委派给云会话。
 
-## 已完成的内容
+## 完成情况
 
 已经：
 
@@ -31,7 +31,7 @@ lastUpdated: 2026-09-28
 - [安装 Git][git]。
 - [比较 Copilot 计划][copilot-plans]。
 
-通过 [GitHub Copilot app 入门研讨会][first-steps-app]或 [GitHub Copilot CLI 入门研讨会][first-steps-cli]，用另一种工作方式完成同一个 Space Quiz。如果已准备好使用完整应用程序和团队待办事项探索更深入的场景，继续学习[真实场景 VS Code 研讨会][real-world-vscode]。
+通过 [GitHub Copilot app 入门工作坊][first-steps-app]或 [GitHub Copilot CLI 入门工作坊][first-steps-cli]，用另一种工作方式完成同一个 Space Quiz。如果已准备好使用完整应用程序和团队待办事项探索更深入的场景，继续学习[真实场景 VS Code 工作坊][real-world-vscode]。
 
 [copilot-vscode]: https://code.visualstudio.com/docs/copilot/overview
 [pr-extension]: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github

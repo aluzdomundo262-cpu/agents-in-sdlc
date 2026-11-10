@@ -57,6 +57,6 @@ Review the space quiz and suggest three focused feature ideas that could each be
 
 ## まとめと次のステップ
 
-バックログを作成し、分離されたセッションで 1 つの Issue を実装して、差分をレビューしました。[レッスン 7: 編集前の計画][next-lesson]に進みます。
+Space Quiz の Issue を 3 つ作成して **Issues** で確認し、1 つを新しい worktree のセッションで実装しました。**Changes** タブで差分をレビューし、機能をテストしました。[レッスン 7: 編集前の計画][next-lesson]に進みます。
 
 [next-lesson]: ../7-plan-mode/

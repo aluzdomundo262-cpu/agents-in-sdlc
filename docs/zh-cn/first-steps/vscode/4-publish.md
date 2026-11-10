@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-完全通过内置的 Git 集成，将经过测试的测验发布到 GitHub，并让 Copilot 根据实际更改起草提交消息。
+通过内置的 Git 集成将经过测试的测验发布到 GitHub，并让 Copilot 根据实际更改起草提交消息。
 
 本课将：
 
@@ -28,6 +28,6 @@ lastUpdated: 2026-09-28
 
 ## 总结与后续步骤
 
-经过测试的测验现在已发布到 GitHub。继续学习[第 5 课：先规划再编辑][next-lesson]。
+经过测试的测验现已发布到 GitHub。继续学习[第 5 课：先规划再编辑][next-lesson]。
 
 [next-lesson]: ../5-plan-mode/

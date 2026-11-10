@@ -23,7 +23,7 @@ Quienes apoyan los juegos los descubren en el sitio web de Tailspin Toys, no en 
 
 La integración con el sitio web necesita el agente desplegado del módulo 2. Mantendrás ese agente en ejecución en Foundry mientras el proxy y el sitio web se ejecutan en local.
 
-1. Vuelve al repositorio de Tailspin Toys en la rama `foundry-agent-cli` y a la sesión de Copilot CLI existente.
+1. Vuelve al repositorio de Tailspin Toys en la rama `foundry-agent-cli` y a la sesión existente de la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI).
 2. Confirma que el Backer Concierge está desplegado y que la invocación remota de [Crea y despliega el agente][previous-lesson] se completó correctamente. Si ya has eliminado los recursos de Azure, vuelve a crearlos siguiendo los módulos anteriores antes de continuar.
 
 > [!IMPORTANT]
@@ -31,7 +31,7 @@ La integración con el sitio web necesita el agente desplegado del módulo 2. Ma
 
 ## Crea el proxy del lado del servidor
 
-Tailspin Toys está completamente prerrenderizado. El código del navegador nunca debe llamar directamente al agente hospedado ni recibir credenciales de Foundry. Añadirás una función local de Azure Functions que actúe como **barrera de protección de credenciales del lado del servidor**: se autenticará en Foundry y devolverá al navegador únicamente la respuesta del agente.
+Tailspin Toys está completamente prerrenderizado. El código del navegador nunca debe llamar directamente al agente hospedado ni recibir credenciales de Foundry. Añadirás una función local de Azure Functions que actúe como **límite de seguridad para las credenciales del servidor**: se autenticará en Foundry y devolverá al navegador únicamente la respuesta del agente.
 
 La habilidad `microsoft-foundry` se encarga del flujo del agente hospedado, mientras que las habilidades más generales de Azure del mismo complemento pueden preparar el proyecto local de la función. Usarás esas habilidades para crear el proxy y, después, comprobarás que se conecta al agente sin exponer credenciales.
 
@@ -54,7 +54,7 @@ La habilidad `microsoft-foundry` se encarga del flujo del agente hospedado, mien
 
 4. Inspecciona la respuesta. Debe explicar que el catálogo no contiene precios. No debe contener ningún token, credencial, punto de conexión del proyecto ni identificador de conversación sin procesar de Foundry, ni tampoco una traza de la pila.
 
-    ![Respuesta JSON sin datos sensibles del punto de conexión local del concierge](../../../../_images/cli-8-sanitized-json-response.png)
+    ![Respuesta en notación de objetos de JavaScript (JSON) sin datos sensibles del punto de conexión local del concierge](../../../../_images/cli-8-sanitized-json-response.png)
 
 ## Crea el widget de chat
 
@@ -67,7 +67,7 @@ El proxy ofrece al navegador una forma segura de conectarse al concierge. Ahora 
     ```
 
 2. Mantén la función local en ejecución e inicia el sitio Astro en otro terminal con el comando que te proporcione Copilot.
-3. Vuelve a Copilot CLI. El servidor MCP de Playwright que añadiste en el [ejercicio 4][playwright-lesson] ya está disponible. Pide a Copilot que pruebe el widget:
+3. Vuelve a la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI). El servidor de Model Context Protocol (MCP) de Playwright que añadiste en la [lección 6][playwright-lesson] ya está disponible. Pide a Copilot que pruebe el widget:
 
     ```text
     Use the Playwright MCP server to test the Backer Concierge widget end to end in the running Tailspin Toys site. Verify its core chat flow, conversation continuity, accessibility, error handling, grounding boundaries, and secure use of the local proxy. Report the results and include evidence for any failures.
@@ -91,6 +91,6 @@ Continúa con [Repaso y próximos pasos][review] para terminar el taller de CLI.
 
 [overview]: ../
 [previous-lesson]: ../2-build-and-deploy/
-[review]: ../../9-review/
-[playwright-lesson]: ../../4-mcp/
+[review]: ../../10-review/
+[playwright-lesson]: ../../6-mcp-playwright/
 [cleanup]: ../#elimina-los-recursos

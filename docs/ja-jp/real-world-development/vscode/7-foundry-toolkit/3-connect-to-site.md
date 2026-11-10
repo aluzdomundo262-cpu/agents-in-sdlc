@@ -15,7 +15,7 @@ next: false
 ## 目標
 
 - 資格情報と Foundry の会話識別子を、ローカルのサーバー側プロキシの背後に保持します。
-- 会話の継続性を備え、アクセシビリティに対応したチャットウィジェットを追加します。
+- 会話の継続性を備え、アクセシビリティに対応したチャットユーザーインターフェイス (UI) ウィジェットを追加します。
 - リソースをクリーンアップする前に、バックエンドと体験全体を検証します。
 
 ## シナリオ
@@ -34,7 +34,7 @@ next: false
 `/api` 内のローカル Azure Functions プロキシが接続情報を保持し、サイトをローカルで実行している間のリクエストを転送します。Copilot は **Azure skills** を使って準備と検証を進められます。
 
 > [!IMPORTANT]
-> このワークショップのプロキシはローカル開発専用です。匿名でアクセスできる公開エンドポイントとしてデプロイしないでください。本番環境では、アプリケーション固有の認証と不正利用対策が必要です。これには、レート制限やクォータ、CORS 制限、監視、コスト管理が含まれます。
+> このワークショップのプロキシはローカル開発専用です。匿名でアクセスできる公開エンドポイントとしてデプロイしないでください。本番環境では、アプリケーション固有の認証と不正利用対策が必要です。これには、レート制限やクォータ、Cross-Origin Resource Sharing (CORS) の制限、監視、コスト管理が含まれます。
 
 1. Copilot にプロキシの作成を依頼します。
 
@@ -49,7 +49,7 @@ next: false
    Start the local Functions host and test /api/concierge by asking "Which games are under $30?" Show me the sanitized response and confirm that no credentials or internal conversation identifiers are returned.
    ```
 
-4. ターミナルの応答を確認します。回答を含む `response` プロパティを持つ有効な JSON であり、価格情報のでっち上げがなく、資格情報や内部の会話識別子を含まないことが期待されます。確認に失敗した場合は、Copilot に修正を依頼し、バックエンドのテストを繰り返します。
+4. ターミナルの応答を確認します。回答を含む `response` プロパティを持つ有効な JavaScript Object Notation (JSON) であり、価格情報のでっち上げがなく、資格情報や内部の会話識別子を含まないことが期待されます。確認に失敗した場合は、Copilot に修正を依頼し、バックエンドのテストを繰り返します。
 5. **Keep** で変更を保持し、**/clear** を使って、同じリポジトリとブランチでウィジェット用の新しいチャットを始めます。ローカルプロキシの設定と既存のホスト型エージェントへの接続は維持します。
 
 ## ウィジェットを構築してテストする
@@ -70,7 +70,7 @@ next: false
    Use Playwright MCP to test the Backer Concierge widget end to end. Verify the core chat flow, conversation continuity, keyboard and accessibility behavior, grounding boundaries, and safe use of the local proxy. Report the results and fix any failures.
    ```
 
-3. テスト結果と変更を Issue の受け入れ基準に照らしてレビューします。基準は、根拠に基づく回答、資金調達額をでっち上げないこと、確認の質問を 1 つすること、アクセシビリティに対応した UI、エンドツーエンドのテストカバレッジです。問題が修正され、影響する確認が再実行されたことを確認します。
+3. テスト結果と変更を Issue の受け入れ基準に照らしてレビューします。基準は、根拠に基づく回答、資金調達額をでっち上げないこと、確認の質問を 1 つすること、アクセシビリティに対応したユーザーインターフェイス (UI)、エンドツーエンドのテストカバレッジです。問題が修正され、影響する確認が再実行されたことを確認します。
 
 ## 完了時のチェックポイント
 

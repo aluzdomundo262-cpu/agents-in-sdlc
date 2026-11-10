@@ -38,7 +38,7 @@ lastUpdated: 2026-10-12
 - [遵循提示词编写最佳实践，让提示词在真实代码中也能发挥作用][best-practices]。
 - [比较 Copilot 计划][copilot-plans]。
 
-通过 [Copilot CLI 入门研讨会][first-steps-cli]或 [Visual Studio Code 入门研讨会][first-steps-vscode]，用另一种工作方式完成同一个 Space Quiz。如果已准备好使用完整应用程序和团队待办事项探索更深入的场景，继续学习[真实场景 GitHub Copilot app 研讨会][real-world-app]。
+通过 [Copilot CLI 入门工作坊][first-steps-cli]或 [Visual Studio Code 入门工作坊][first-steps-vscode]，用另一种工作方式完成同一个 Space Quiz。如果已准备好使用完整应用和团队待办事项探索更深入的场景，继续学习[真实场景 GitHub Copilot app 工作坊][real-world-app]。
 
 [about-app]: https://docs.github.com/copilot/concepts/agents/github-copilot-app
 [getting-started]: https://docs.github.com/copilot/how-tos/github-copilot-app/getting-started

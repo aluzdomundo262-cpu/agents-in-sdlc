@@ -72,7 +72,7 @@ How does the GitHub Copilot app use worktrees?
 
 ## まとめと次のステップ
 
-前提条件を確認し、アプリをインストールしてモデルを選び、主な作業領域を確認しました。[レッスン 1: Space Quiz のワークスペースの作成][next-lesson]に進みます。
+前提条件を確認し、アプリをインストールしてサインインし、モデルを選んで主な作業領域を把握し、簡単なチャットも試しました。[レッスン 1: Space Quiz のワークスペースの作成][next-lesson]に進みます。
 
 [github-signup]: https://github.com/signup
 [copilot-plans]: https://github.com/features/copilot/plans

@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-16
 ---
 
-Este é o primeiro módulo de [Opcional: Incorpore o Foundry][overview]. Você preparará as ferramentas e o catálogo e, em seguida, usará o Copilot para criar um projeto do Foundry e testar um modelo implantado antes de criar o agente.
+Este é o primeiro módulo de [Opcional: Integrar o Foundry][overview]. Você preparará as ferramentas e o catálogo e, em seguida, usará o Copilot para criar um projeto do Foundry e testar um modelo implantado antes de criar o agente.
 
 Neste módulo, você vai:
 
@@ -43,20 +43,20 @@ Você usará o Azure para hospedar o Backer Concierge e o Copilot CLI para orien
     ```
 
 6. Faça login na Azure Developer CLI com `azd auth login` e confirme que está usando a assinatura correta com `azd config show`.
-7. Instale a extensão Foundry da Azure Developer CLI (azd):
+7. Instale a extensão do Microsoft Foundry para a Azure Developer CLI (`azd`):
 
     ```bash
     azd ext install microsoft.foundry
     ```
 
-8. Abra uma nova sessão do Copilot CLI ao lado pela paleta de comandos. Pressione <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Mac) ou <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) e selecione **Chat: Nova sessão do Copilot CLI ao lado**.
+8. Abra uma nova sessão do Copilot CLI ao lado pela paleta de comandos. Pressione <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Mac) ou <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) e selecione **Chat: New Copilot CLI session to the side**.
 9. Adicione o marketplace do Azure Skills. Você só precisa fazer isso na primeira instalação do plugin:
 
     ```text
     /plugin marketplace add microsoft/azure-skills
     ```
 
-10. Instale o [plugin Azure Skills][azure-skills], que adiciona skills do Azure, o Azure MCP Server e o Foundry MCP Server ao GitHub Copilot CLI:
+10. Instale o [plugin Azure Skills][azure-skills], que adiciona skills do Azure, o Azure MCP Server e o Foundry MCP Server (ambos baseados no Model Context Protocol (MCP)) ao GitHub Copilot CLI:
 
     ```text
     /plugin install azure@azure-skills
@@ -70,7 +70,7 @@ Você usará o Azure para hospedar o Backer Concierge e o Copilot CLI para orien
 
 12. Se as skills ou os servidores MCP não aparecerem, tente `/skills reload` ou `/restart` e verifique novamente.
 
-As skills ensinam o fluxo de trabalho ao Copilot, enquanto os servidores MCP permitem que ele inspecione e trabalhe com seus recursos do Azure.
+As skills ensinam o fluxo de trabalho ao Copilot, enquanto esses servidores MCP permitem que ele inspecione e trabalhe com seus recursos do Azure.
 
 ## Prepare sua branch de trabalho
 

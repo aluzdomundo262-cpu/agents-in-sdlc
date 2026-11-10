@@ -9,10 +9,10 @@ lastUpdated: 2026-10-12
 
 通过适合初学者的动手实践探索 GitHub Copilot app。从空文件夹构建色彩丰富的 Space Quiz，完成整个开发流程，从第一个提示词一直到经过审查的拉取请求和发布到 GitHub Pages 的网站。
 
-本研讨会约需 60 到 90 分钟。项目只有一个 HTML 文件，没有运行时依赖项，因此可以专注于学习应用及其智能体工作流。
+本工作坊约需 60 到 90 分钟。项目只有一个 HTML 文件，没有运行时依赖项，因此可以专注于了解应用及其智能体工作流。
 
 > [!NOTE]
-> 本研讨会由 [James Montemagno][james] 创建，改编自 [First Steps with GitHub Copilot][source-lab]。原始内容采用 [MIT 许可证][source-license]。
+> 本工作坊由 [James Montemagno][james] 创建，改编自 [First Steps with GitHub Copilot][source-lab]。原始内容采用 [MIT 许可证][source-license]。
 
 ## 课程
 

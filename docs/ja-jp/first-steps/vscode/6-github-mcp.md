@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-Copilot に Issue の作成やプルリクエストの操作を依頼する*前に*、GitHub MCP サーバーを有効にします。これらのツールを使うと、Copilot はチャットから直接 GitHub のデータを読み書きできます。
+Copilot に Issue の作成やプルリクエストの操作を依頼する*前に*、GitHub の Model Context Protocol (MCP) サーバーを有効にします。これらのツールを使うと、Copilot はチャットから直接 GitHub のデータを読み書きできます。
 
 このレッスンでは、次の内容を学習します。
 

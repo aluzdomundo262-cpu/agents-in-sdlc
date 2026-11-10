@@ -35,6 +35,6 @@ lastUpdated: 2026-10-05
 
 ## 总结与后续步骤
 
-已经在智能体编写任何代码之前共同确定了方案。继续学习[第 8 课：完成 Copilot 审查流程][next-lesson]。
+已为第二个议题启动 Plan 会话、审查并完善方案、批准计划，并选择会话的后续模式。继续学习[第 8 课：完成 Copilot 审查流程][next-lesson]。
 
 [next-lesson]: ../8-review-loop/

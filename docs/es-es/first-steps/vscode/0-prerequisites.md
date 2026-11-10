@@ -1,6 +1,6 @@
 ---
 title: "Lección 0 - Requisitos previos y configuración"
-description: "Comprueba los requisitos previos del taller, confirma que Copilot Chat funciona en VS Code, añade la extensión GitHub Pull Requests and Issues y elige un modelo."
+description: "Comprueba los requisitos previos del taller, confirma que Copilot Chat funciona en Visual Studio Code (VS Code), añade la extensión GitHub Pull Requests and Issues y elige un modelo."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-10-05
@@ -42,7 +42,7 @@ Selecciona la primera opción que tengas disponible:
 2. **Auto**, como alternativa equilibrada.
 3. Cualquier modelo de la [lista de modelos activos][active-models].
 
-La disponibilidad de los modelos depende de tu plan, de la directiva de la organización y de la versión del producto.
+La disponibilidad de los modelos depende de tu plan, de la política de la organización y de la versión del producto.
 
 ## Resumen y pasos siguientes
 

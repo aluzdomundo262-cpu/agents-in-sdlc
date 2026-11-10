@@ -28,7 +28,7 @@ lastUpdated: 2026-09-28
 
 ## 总结与后续步骤
 
-空的 Space Quiz 工作区已准备就绪。继续学习[第 2 课：构建与优化测验][next-lesson]。
+已打开空文件夹并启动 Interactive 智能体会话，也在发送第一个提示词前确认了文件夹、模式和模型。继续学习[第 2 课：构建与优化测验][next-lesson]。
 
 [model-order]: ../0-prerequisites/#选择模型
 [next-lesson]: ../2-build-and-polish/

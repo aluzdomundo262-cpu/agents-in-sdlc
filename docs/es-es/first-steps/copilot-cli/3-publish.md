@@ -1,12 +1,12 @@
 ---
 title: "Lección 3 - Publicar el proyecto"
-description: "Inicializa el proyecto, crea un commit y publica Space Quiz en GitHub, mediante un prompt o ejecutando los comandos tú mismo."
+description: "Inicializa el proyecto, crea un commit y publica Space Quiz en GitHub mediante una solicitud o ejecutando los comandos por tu cuenta."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
 ---
 
-Convierte el experimento en un repositorio público de GitHub. Puedes pedirlo en un único prompt o ejecutar los comandos tú mismo. Prueba ambas formas una vez y sabrás exactamente qué hace el agente por ti.
+Convierte el experimento en un repositorio público de GitHub. Puedes pedirlo en una única solicitud o ejecutar los comandos por tu cuenta. Prueba ambas formas una vez y sabrás exactamente qué hace el agente por ti.
 
 En esta lección:
 
@@ -16,15 +16,15 @@ En esta lección:
 
 ## Opción A: Pídelo
 
-Envía el siguiente prompt:
+Envía la siguiente solicitud:
 
 ```plaintext
-Initialize this folder as a Git repository, create an initial commit, and create a new public GitHub repository named space-quiz in my account. Push the current branch and set it as the default branch.
+Inicializa esta carpeta como un repositorio de Git, crea el commit inicial y crea en mi cuenta un nuevo repositorio público de GitHub llamado space-quiz. Envía la rama actual y configúrala como rama predeterminada.
 ```
 
 Aprueba cada acción de Git y GitHub cuando el agente lo solicite.
 
-## Opción B: Ejecútalo tú mismo
+## Opción B: Ejecútalo por tu cuenta
 
 Añade el prefijo `!` a cada comando para ejecutarlo desde la sesión o ejecuta los comandos sin el prefijo en tu propia terminal:
 

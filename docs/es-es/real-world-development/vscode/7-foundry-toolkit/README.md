@@ -10,7 +10,7 @@ lastUpdated: 2026-09-16
 | [← Lección anterior: Iterar sobre el trabajo de GitHub Copilot][previous-lesson] |
 |:--|
 
-El itinerario obligatorio de VS Code termina con el ejercicio 6. Esta ampliación opcional utiliza GitHub Copilot Chat y Microsoft Foundry Toolkit en VS Code para convertir el catálogo de Tailspin en un Backer Concierge, implementarlo como agente hospedado y conectarlo al sitio a través de un proxy local.
+El itinerario obligatorio de VS Code termina con el ejercicio 6. Esta ampliación opcional utiliza GitHub Copilot Chat y Microsoft Foundry Toolkit en VS Code para convertir el catálogo de Tailspin en un Backer Concierge, desplegarlo como agente hospedado y conectarlo al sitio a través de un proxy local.
 
 ## Escenario
 
@@ -22,19 +22,19 @@ Cada módulo termina con un resultado funcional. Se mantienen el mismo repositor
 
 | Módulo | Resultado al finalizar |
 |--------|-----------------------|
-| [1. Preparar un proyecto y un modelo][module-1] | Catálogo exportado y modelo implementado probado frente a las reglas de fundamentación |
-| [2. Crear e implementar un agente][module-2] | Agente local depurado y agente hospedado probado |
+| [1. Preparar un proyecto y un modelo][module-1] | Catálogo exportado y modelo desplegado, probado frente a las reglas de fundamentación |
+| [2. Crear y desplegar un agente][module-2] | Agente local depurado y agente hospedado probado |
 | [3. Conectar el agente al sitio][module-3] | Proxy local y widget accesible probados de extremo a extremo |
 
 > [!IMPORTANT]
-> Microsoft Foundry Toolkit y los agentes hospedados están en versión preliminar pública. Estos módulos crean recursos de Azure facturables, incluidos una implementación de modelo y un agente hospedado. Los permisos de la suscripción, la disponibilidad regional, la cuota y el coste pueden limitar la participación.
+> Microsoft Foundry Toolkit y los agentes hospedados están en versión preliminar pública. Estos módulos crean recursos de Azure facturables, incluido el despliegue de un modelo y un agente hospedado. Los permisos de la suscripción, la disponibilidad regional, la cuota y el coste pueden limitar la participación.
 
 ## Antes de empezar
 
 La ampliación parte de tu repositorio de Tailspin Toys, no del repositorio de documentación del taller.
 
-1. Confirma que el trabajo obligatorio del taller está guardado, confirmado mediante un commit y enviado al repositorio remoto antes de empezar la funcionalidad opcional.
-2. Empieza por [Preparar un proyecto y un modelo][module-1]. Si retomas el trabajo, vuelve a abrir tu repositorio de Tailspin Toys en la rama `foundry-agent-vscode` y confirma que el proyecto `tailspin-toys` y su implementación del modelo siguen existiendo en **Foundry Toolkit** > **My Resources**.
+1. Confirma que has guardado el trabajo obligatorio del taller en commits y lo has enviado al repositorio remoto antes de empezar la funcionalidad opcional.
+2. Empieza por [Preparar un proyecto y un modelo][module-1]. Si retomas el trabajo, vuelve a abrir tu repositorio de Tailspin Toys en la rama `foundry-agent-vscode` y confirma que el proyecto `tailspin-toys` y el despliegue del modelo siguen existiendo en **Foundry Toolkit** > **My Resources**.
 3. Si paras después de cualquier módulo, sigue las indicaciones de [Eliminar los recursos][cleanup], salvo que decidas conservarlos para el siguiente módulo y aceptes los costes continuados.
 
 ## Eliminar los recursos
@@ -47,7 +47,7 @@ Cuando termines de experimentar en cualquier punto de control, elimina los recur
 > Si aprobaste otro nombre de grupo de recursos en el módulo 1, sustituye `rg-tailspin-toys` por ese nombre en todos los comandos siguientes.
 
 1. Detén en su terminal cualquier sesión de depuración de Agent Inspector, host de Azure Functions o servidor de desarrollo de Astro que hayas iniciado.
-2. Si implementaste el agente hospedado en el módulo 2, abre un terminal en el directorio del agente generado que contiene `azure.yaml`, selecciona el mismo entorno de `azd` y ejecuta:
+2. Si desplegaste el agente hospedado en el módulo 2, abre un terminal en el directorio del agente generado que contiene `azure.yaml`, selecciona el mismo entorno de Azure Developer CLI (`azd`) y ejecuta:
 
    ```bash
    azd down --purge
@@ -66,7 +66,7 @@ Cuando termines de experimentar en cualquier punto de control, elimina los recur
    az resource list --resource-group rg-tailspin-toys --output table
    ```
 
-   Verifica que todos los recursos restantes pertenecen a este ejercicio. Si paraste después del módulo 1, el proyecto y el modelo de Foundry todavía deben eliminarse aunque no hayas implementado un servicio de `azd`.
+   Verifica que todos los recursos restantes pertenecen a este ejercicio. Si paraste después del módulo 1, el proyecto y el modelo de Foundry todavía deben eliminarse aunque no hayas desplegado un servicio de `azd`.
 
 4. Si el grupo de recursos dedicado al taller sigue existiendo y solo contiene recursos que quieres eliminar, ejecuta:
 

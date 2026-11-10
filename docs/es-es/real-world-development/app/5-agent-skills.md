@@ -1,14 +1,14 @@
 ---
-title: "Lección 5 - Personalizar y utilizar una habilidad quality-checks"
+title: "Lección 5 - Personalizar y utilizar la habilidad quality-checks"
 description: "Explora la habilidad quality-checks existente, personaliza el formato de su informe y utilízala para validar el filtrado."
 authors:
   - geektrainer
 lastUpdated: 2026-09-29
 ---
 
-Escribir código implica mucho más que limitarse a escribirlo. Hemos podido validar manualmente que funciona y hemos utilizado archivos de instrucciones para garantizar que sigue nuestros estándares. Pero ¿qué ocurre con las pruebas, lint y el resto de las tareas de integración continua (CI)?
+Escribir código implica mucho más que limitarse a escribirlo. Ya has podido validar manualmente que funciona y has utilizado archivos de instrucciones para garantizar que sigue los estándares del equipo. Pero ¿qué ocurre con las pruebas, lint y el resto de las tareas de integración continua (CI)?
 
-Para este tipo de tareas, las **habilidades de agente** son la mejor opción. Las habilidades ayudan a Copilot a comprender cómo ejecutar correctamente operaciones como estas.
+Para este tipo de tareas, las **habilidades de agente** son la mejor opción. Ayudan a Copilot a comprender cómo ejecutar correctamente operaciones como estas.
 
 En esta lección:
 
@@ -25,11 +25,13 @@ Tailspin Toys utiliza la habilidad `quality-checks` para las pruebas unitarias, 
 Las habilidades de agente reúnen instrucciones de tareas reutilizables, scripts ejecutables y recursos de apoyo que un agente carga cuando los necesita. En esencia, son una carpeta con el nombre de la habilidad y un archivo Markdown llamado `SKILL.md`. Este archivo contiene frontmatter con un nombre y una descripción que definen la habilidad, una introducción sobre lo que hace e indicaciones sobre cuándo debe invocarse. La carpeta también puede contener subcarpetas con scripts y otros recursos que utilizará la habilidad.
 
 > [!NOTE]
-> Una habilidad no necesita carpetas ni archivos adicionales. En nuestro ejemplo, la habilidad ejecutará comandos `npm` para iniciar las pruebas y los linters, así que no necesitamos archivos auxiliares.
+> Una habilidad no necesita carpetas ni archivos adicionales. En este ejemplo, la habilidad ejecutará comandos `npm` para iniciar las pruebas y los linters, por lo que no se necesitan archivos auxiliares.
 
 Las habilidades pueden residir en la carpeta `.github/skills` de un proyecto para convertirse en un recurso del repositorio que el resto del equipo pueda compartir y reutilizar, o en la carpeta raíz de Copilot, que suele ser `~/.copilot/skills`.
 
 ## Explorar la habilidad
+
+Explora la habilidad que el equipo de Tailspin Toys creó para ejecutar pruebas unitarias, lint y comprobaciones de tipos: `quality-checks`.
 
 1. Si todavía no tienes abierto un lienzo **Files**, selecciona **+** en el panel de revisión y, después, **File**.
 2. Busca `.github/skills/quality-checks/SKILL.md`.
@@ -38,7 +40,7 @@ Las habilidades pueden residir en la carpeta `.github/skills` de un proyecto par
 
 ## Ejecutar la habilidad antes de realizar un cambio
 
-Las habilidades se pueden invocar directamente mediante un comando con barra diagonal (`/`) o con lenguaje natural. Pidamos a Copilot que ejecute las tres comprobaciones de la habilidad.
+Las habilidades se pueden invocar directamente mediante un comando con barra diagonal (`/`) o con lenguaje natural. Pide a Copilot que ejecute las tres comprobaciones de la habilidad.
 
 1. Selecciona el modo **Interactive** en el menú desplegable para confirmar que Copilot lo utiliza.
 2. Utiliza la indicación siguiente para invocar la habilidad:
@@ -51,7 +53,7 @@ Las habilidades se pueden invocar directamente mediante un comando con barra dia
 
 ## Personalizar el informe
 
-Queremos un informe mejor que indique qué se ha ejecutado, si ha tenido éxito y qué han comunicado realmente las herramientas. Actualicemos la habilidad para generar ese informe.
+Necesitas un informe mejor que indique qué se ha ejecutado, si ha tenido éxito y qué han comunicado realmente las herramientas. Actualiza la habilidad para generar ese informe.
 
 1. Vuelve al lienzo **Files**.
 2. Si aún no está abierto, abre `.github/skills/quality-checks/SKILL.md`.
@@ -67,7 +69,7 @@ El archivo se guardará automáticamente.
 
 ## Ejecutar la habilidad actualizada
 
-Una vez realizado el cambio, veamos cómo funciona. Utilizaremos exactamente la misma indicación que antes.
+Una vez realizado el cambio, comprueba cómo funciona. Utiliza exactamente la misma indicación que antes.
 
 1. Selecciona el modo **Interactive** en el menú desplegable para confirmar que Copilot lo utiliza.
 2. Utiliza la indicación siguiente para invocar la habilidad:
@@ -86,7 +88,7 @@ Has personalizado y utilizado una habilidad de agente existente. En esta lecció
 - has personalizado el formato de sus resultados.
 - has ejecutado la habilidad y revisado su salida.
 
-Este cambio acompañará al filtrado en la PR de la funcionalidad. A continuación, permitirás que Copilot interactúe directamente con el sitio [mediante el servidor MCP de Playwright][next-lesson].
+Este cambio acompañará al filtrado en la solicitud de incorporación de cambios (PR) de la funcionalidad. A continuación, permitirás que Copilot interactúe directamente con el sitio [mediante el servidor de Model Context Protocol (MCP) de Playwright][next-lesson].
 
 ## Más ejemplos de habilidades
 

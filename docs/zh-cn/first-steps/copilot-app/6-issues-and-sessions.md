@@ -57,6 +57,6 @@ Review the space quiz and suggest three focused feature ideas that could each be
 
 ## 总结与后续步骤
 
-已经创建待办事项，在隔离会话中实现一个议题，并审查了差异。继续学习[第 7 课：先规划再编辑][next-lesson]。
+已创建并浏览三个待办议题，在隔离会话中实现一个议题，审查差异并验证功能。继续学习[第 7 课：先规划再编辑][next-lesson]。
 
 [next-lesson]: ../7-plan-mode/

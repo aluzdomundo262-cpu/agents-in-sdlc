@@ -39,7 +39,7 @@ next: false
 1. Copilot에 프록시 생성을 요청합니다.
 
    ```text
-   Add a local Azure Functions proxy in api for the static Astro site to call my deployed Backer Concierge securely during development. Use my existing local Azure sign-in to call the hosted agent, keep all credentials out of the browser, protect conversation state with opaque handles, validate requests, sanitize errors, add focused tests, and configure the Astro dev server so /api requests reach the local Function. Don't create public deployment infrastructure.
+   정적 Astro 사이트가 개발 중 배포된 Backer Concierge를 안전하게 호출하도록 `api`에 로컬 Azure Functions 프록시를 추가하십시오. 기존 로컬 Azure 로그인으로 호스팅 에이전트를 호출하고 모든 자격 증명을 브라우저에서 숨기고, 불투명한 핸들로 대화 상태를 보호하고, 요청을 검증하고, 오류에서 민감한 정보를 제거하고, 집중 테스트를 추가하십시오. `/api` 요청이 로컬 Function에 도달하도록 Astro 개발 서버를 구성하십시오. 공개 배포 인프라는 만들지 마십시오.
    ```
 
 2. 변경 사항을 수락하기 전에 검토합니다. 자격 증명과 Foundry 대화 식별자를 서버에 유지하고, 로컬 설정을 버전 관리에서 제외하며, 요청에 제한을 적용하고, 관련 테스트를 통과했는지 확인합니다.
@@ -59,7 +59,7 @@ next: false
 1. Copilot에 위젯 추가를 요청합니다.
 
    ```text
-   Add an accessible Backer Concierge chat widget to the Astro site. Connect it to /api/concierge, preserve the conversation using the returned opaque handle, follow the existing design guidance, support keyboard use, and make it testable.
+   Astro 사이트에 접근성을 갖춘 Backer Concierge 채팅 위젯을 추가하십시오. `/api/concierge`에 연결하고 반환된 불투명한 핸들로 대화를 유지하고 기존 디자인 지침을 따르고 키보드로 사용할 수 있게 하며 테스트가 가능하도록 만드십시오.
    ```
 
    ![Backer Concierge 채팅 위젯이 동작하는 모습을 보여 주는 스크린샷](../../../../_images/tailspin-toys-backer-concierge-agent.png)
@@ -67,7 +67,7 @@ next: false
 2. Function과 사이트를 계속 실행한 상태에서 전체 사용자 경험을 검증합니다.
 
    ```text
-   Use Playwright MCP to test the Backer Concierge widget end to end. Verify the core chat flow, conversation continuity, keyboard and accessibility behavior, grounding boundaries, and safe use of the local proxy. Report the results and fix any failures.
+   Playwright MCP를 사용하여 Backer Concierge 위젯을 엔드투엔드로 테스트하십시오. 기본 채팅 흐름, 대화 연속성, 키보드 및 접근성 동작, 그라운딩 경계, 로컬 프록시의 안전한 사용을 확인하십시오. 결과를 보고하고 실패 항목을 수정하십시오.
    ```
 
 3. 이슈의 수락 기준에 따라 테스트 결과와 변경 사항을 검토합니다. 근거에 기반한 답변, 모금액을 지어내지 않는 동작, 명확히 하기 위한 질문 하나, 접근성 있는 UI, 엔드투엔드 테스트가 기준입니다. 실패한 부분을 수정하고 관련 점검을 다시 실행했는지 확인합니다.

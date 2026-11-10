@@ -19,7 +19,7 @@ Nesta lição, você vai:
 1. Execute `/context` para inspecionar arquivos, instruções e histórico da conversa.
 2. Verifique quanto da janela cada parte está consumindo.
 3. Execute `/clear` para recomeçar quando a conversa tiver perdido o rumo.
-4. Adicione o arquivo certo novamente antes de pedir outra alteração.
+4. Inclua novamente o arquivo apropriado no contexto antes de pedir outra alteração.
 
 ![Ilustração da saída do Copilot CLI após executar /context. Um indicador da janela de contexto mostra 61% de uso, dividido entre conversa, arquivos lidos e instruções. Uma nota sugere usar /compact para resumir ou iniciar uma nova sessão quando houver pouco espaço disponível.](../../../_images/first-steps-cli-context.svg)
 

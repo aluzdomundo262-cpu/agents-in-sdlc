@@ -28,7 +28,7 @@ Space Quiz 用のローカルワークスペースを作成し、エージェン
 
 ## まとめと次のステップ
 
-空の Space Quiz ワークスペースの準備ができました。[レッスン 2: クイズの構築と仕上げ][next-lesson]に進みます。
+空のローカルフォルダーを開き、Interactive エージェントセッションを開始しました。最初のプロンプトを送る前に、フォルダー、モード、モデルも確認しました。[レッスン 2: クイズの構築と仕上げ][next-lesson]に進みます。
 
 [model-order]: ../0-prerequisites/#モデルを選ぶ
 [next-lesson]: ../2-build-and-polish/

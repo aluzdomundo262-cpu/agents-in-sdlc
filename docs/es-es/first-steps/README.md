@@ -17,15 +17,15 @@ Todos los talleres crean el mismo Space Quiz desde una carpeta vacía, así que 
 
 ### [Recorrido por la aplicación GitHub Copilot][copilot-app]
 
-Crea un Space Quiz lleno de color desde una carpeta vacía y recorre todo el ciclo de desarrollo: crear, perfeccionar, probar, recoger las instrucciones del proyecto, publicar, planificar el trabajo, implementar incidencias, revisar y combinar una solicitud de incorporación de cambios, automatizar tareas recurrentes y explorar una extensión de Canvas.
+Crea un Space Quiz lleno de color desde una carpeta vacía y recorre todo el ciclo de desarrollo: crear, perfeccionar, probar, recoger las instrucciones del proyecto, publicar, planificar el trabajo, implementar incidencias, revisar y fusionar una solicitud de incorporación de cambios, automatizar tareas recurrentes y explorar una extensión de Canvas.
 
 ### [Primeros pasos con GitHub Copilot CLI][copilot-cli]
 
-Aprende el ciclo de trabajo centrado en la terminal: crea y revisa las diferencias antes de que Git escriba nada, ejecuta sesiones en paralelo en árboles de trabajo, planifica antes de editar, gestiona el contexto y, después, crea, combina y delega trabajo sin salir del shell.
+Aprende el ciclo de trabajo centrado en la terminal: crea y revisa las diferencias antes de que Git escriba nada, ejecuta sesiones en paralelo en worktrees, planifica antes de editar, gestiona el contexto y, después, crea y fusiona solicitudes de incorporación de cambios y delega trabajo sin salir de la terminal.
 
 ### [Primeros pasos con Visual Studio Code][vscode]
 
-Utiliza el ciclo de trabajo del editor: crea en un área de trabajo, perfecciona elementos desde el explorador integrado, inspecciona el contexto, prueba antes de que Git escriba, planifica antes de editar y deja que las herramientas de GitHub gestionen incidencias, solicitudes de incorporación de cambios y sesiones en la nube sin salir de VS Code.
+Utiliza el ciclo de trabajo del editor: crea en un área de trabajo, perfecciona elementos desde el navegador integrado, inspecciona el contexto, prueba antes de que Git escriba, planifica antes de editar y deja que las herramientas de GitHub gestionen incidencias, solicitudes de incorporación de cambios y sesiones en la nube sin salir de VS Code.
 
 [james]: https://github.com/jamesmontemagno
 [source-lab]: https://github.com/jamesmontemagno/first-steps-with-github-copilot

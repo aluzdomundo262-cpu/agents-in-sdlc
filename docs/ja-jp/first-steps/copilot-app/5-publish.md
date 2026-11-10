@@ -33,6 +33,6 @@ Initialize this folder as a Git repository, create an initial commit, and create
 
 ## まとめと次のステップ
 
-プロジェクトが GitHub リポジトリになりました。[レッスン 6: Issue とセッションの活用][next-lesson]に進みます。
+フォルダーを Git リポジトリとして初期化し、GitHub にパブリックリポジトリを作成してプッシュし、Copilot app でプロジェクトをリンクしました。[レッスン 6: Issue とセッションの活用][next-lesson]に進みます。
 
 [next-lesson]: ../6-issues-and-sessions/

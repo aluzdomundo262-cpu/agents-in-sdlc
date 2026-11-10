@@ -1,6 +1,6 @@
 ---
 slug: pt-br/real-world-development/vscode/7-foundry-toolkit
-title: "Opcional: Incorporar o Foundry"
+title: "Opcional: Integrar o Foundry"
 description: "Crie um Backer Concierge fundamentado no catálogo com o VS Code e o Microsoft Foundry Toolkit em três módulos focados."
 authors:
   - juliamuiruri4

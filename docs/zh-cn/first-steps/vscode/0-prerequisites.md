@@ -17,7 +17,7 @@ lastUpdated: 2026-10-05
 
 ## 先决条件
 
-需要具备：
+需要准备：
 
 - GitHub 账户。[创建 GitHub 账户][github-signup]，或使用现有账户。
 - 有效的 Copilot 计划。[启用 Copilot Free 或付费 Copilot 计划][copilot-plans]。如果组织已提供 Copilot 访问权限，使用对应账户。
@@ -40,9 +40,9 @@ lastUpdated: 2026-10-05
 
 1. **GPT-6-Luna**（推荐）。
 2. **Auto**，作为兼顾各方面的备选。
-3. [当前可用模型列表][active-models]中的任意模型。
+3. [当前可用模型列表][active-models]中的任一模型。
 
-模型是否可用取决于订阅计划、组织策略和产品版本。
+模型是否可用取决于 Copilot 计划、组织策略和产品版本。
 
 ## 总结与后续步骤
 

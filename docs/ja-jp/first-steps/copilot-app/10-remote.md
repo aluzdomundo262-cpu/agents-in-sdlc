@@ -28,6 +28,6 @@ lastUpdated: 2026-10-05
 
 ## まとめと次のステップ
 
-別のデバイスからローカルセッションにアクセスできるようにしました。[レッスン 11: Canvas を試す][next-lesson]に進みます。
+進行中のセッションをリモートから利用できるようにし、ブラウザーまたは GitHub Copilot mobile app から進行を確認して、変更をレビューしました。[レッスン 11: Canvas を試す][next-lesson]に進みます。
 
 [next-lesson]: ../11-canvas/

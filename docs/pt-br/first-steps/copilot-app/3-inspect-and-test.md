@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-12
 ---
 
-Agora que a sessão realizou trabalho de verdade, há algo para inspecionar. Confirme qual é o alvo do trabalho do agente e, depois, deixe que ele opere o quiz no navegador integrado e relate o que realmente aconteceu, em vez do que pretendia fazer.
+Agora que a sessão realizou trabalho de verdade, há algo para inspecionar. Confirme em qual projeto o agente está trabalhando e, depois, deixe-o operar o quiz no navegador integrado e relatar o que realmente aconteceu, em vez do que pretendia fazer.
 
 Nesta lição, você vai:
 
@@ -18,11 +18,11 @@ Nesta lição, você vai:
 
 Selecione **Build a space quiz** na barra de título para abrir o menu do projeto e da sessão.
 
-![Ilustração do menu de título Build a space quiz. Ele identifica a sessão de pasta do projeto space-quiz e fornece controles para o caminho, controle remoto, nome, sessões aninhadas, ID da sessão, compartilhamento, arquivamento e exclusão.](../../../_images/first-steps-app-project-details.svg)
+![Ilustração do menu de título Build a space quiz. Ele identifica a sessão do projeto space-quiz associada à pasta e fornece controles para o caminho, controle remoto, nome, sessões aninhadas, identificador da sessão, compartilhamento, arquivamento e exclusão.](../../../_images/first-steps-app-project-details.svg)
 
 Esse menu identifica o projeto em que a sessão está trabalhando e fornece controles para gerenciar a sessão.
 
-1. Confirme se a sessão de pasta é do projeto `space-quiz`.
+1. Confirme se a sessão está associada à pasta do projeto `space-quiz`.
 2. Selecione **Path** para confirmar se a sessão está trabalhando na pasta esperada.
 3. Observe os controles de acesso remoto, renomeação, sessões aninhadas, compartilhamento, arquivamento e exclusão.
 

@@ -18,10 +18,10 @@ En esta lección:
 
 1. Cambia a la **segunda sesión** que abriste en la lección anterior.
 2. Ejecuta `/plan` para cambiar esa sesión al modo de planificación.
-3. Envía el siguiente prompt y deja que el agente investigue sin editar nada:
+3. Envía la siguiente solicitud y deja que el agente investigue sin editar nada:
 
    ```plaintext
-   Plan how to implement this issue. Investigate the existing quiz, list the files you would change, call out risks to accessibility and the single-file constraint, and stop before making any edits.
+   Planifica cómo implementar esta incidencia. Investiga el cuestionario existente, enumera los archivos que modificarías, señala los riesgos para la accesibilidad y la restricción de mantenerlo en un único archivo, y detente antes de hacer cambios.
    ```
 
 4. Lee el plan, señala cualquier carencia y apruébalo.

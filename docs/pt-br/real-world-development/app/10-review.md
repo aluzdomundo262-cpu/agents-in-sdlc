@@ -1,6 +1,6 @@
 ---
 title: "Lição 10 - Encerramento e próximos passos"
-description: "Recapitule o fluxo do aplicativo, os dois marcos de PR, os exercícios de canvas e as práticas reutilizáveis de qualidade e explore outros recursos."
+description: "Recapitule o fluxo do aplicativo, os dois marcos de pull request, os exercícios de canvas e as práticas reutilizáveis de qualidade e explore outros recursos."
 authors:
   - geektrainer
 lastUpdated: 2026-09-29
@@ -13,7 +13,7 @@ Você usou o aplicativo GitHub Copilot em um fluxo contínuo da Tailspin Toys. V
 - começou pela issue de filtragem, definiu a abordagem no modo **Plan**, desenvolveu-a no modo **Autopilot** e a revisou no modo **Interactive**.
 - orientou o agente com instruções personalizadas e depois personalizou a skill `quality-checks` existente e a usou para executar testes de unidade, lint e verificações de tipos.
 - adicionou o servidor do Model Context Protocol (MCP) do Playwright e o usou para explorar a filtragem em um navegador real.
-- criou e selecionou um agente personalizado QA para avaliar requisitos, cobertura, resultados dos scripts da skill e evidências do navegador.
+- criou e selecionou um agente personalizado de garantia de qualidade (QA) para avaliar requisitos, cobertura, resultados dos scripts da skill e evidências do navegador.
 - revisou toda a alteração de filtragem e autorizou o **Agent Merge** no segundo PR.
 - usou o canvas Database Explorer existente e depois criou e testou um canvas de triagem vinculado ao repositório.
 

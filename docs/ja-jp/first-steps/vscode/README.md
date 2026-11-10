@@ -9,7 +9,7 @@ lastUpdated: 2026-09-28
 
 初心者向けのハンズオンで、Visual Studio Code の GitHub Copilot を体験します。空のフォルダーからカラフルな Space Quiz を構築し、エディター中心の開発の流れを学びます。ワークスペースで構築し、コンテキストを確認して、Git に変更を記録する前にテストします。編集前に計画を立て、VS Code を離れずに GitHub のツールで Issue とプルリクエストを扱います。
 
-ワークショップの所要時間は約 60～90 分です。プロジェクトは実行時の依存関係を持たない単一の HTML ファイルで構成されるため、エディターでの Copilot の学習に集中できます。
+ワークショップの所要時間は約 60～90 分です。プロジェクトは実行時の依存関係を持たない単一の HyperText Markup Language (HTML) ファイルで構成されるため、エディターでの Copilot の学習に集中できます。
 
 > [!NOTE]
 > このワークショップは [James Montemagno][james] が作成し、[First Steps with GitHub Copilot][source-lab] を基に構成されています。元のコンテンツは [MIT License][source-license] で公開されています。
@@ -24,7 +24,7 @@ lastUpdated: 2026-09-28
 | [3. コンテキストの確認とテスト][lesson-3] | テスト | チャットのコンテキストを確認し、Git に変更を記録する前にスモークテストを実行する |
 | [4. プロジェクトの公開][lesson-4] | 公開 | Source Control で初期化、コミット、公開する |
 | [5. 編集前の計画][lesson-5] | 計画 | Plan モードを使って次の機能のアプローチに合意する |
-| [6. Copilot に GitHub を扱うツールを提供する][lesson-6] | ツール | GitHub MCP サーバーを有効にしてレビューする |
+| [6. Copilot に GitHub を扱うツールを提供する][lesson-6] | ツール | GitHub の Model Context Protocol (MCP) サーバーを有効にしてレビューする |
 | [7. Issue の計画と実装][lesson-7] | 実装 | GitHub のツールで Issue を作成し、新しいセッションで 1 つ実装する |
 | [8. レビューとマージ][lesson-8] | レビュー | Source Control からプルリクエストを作成し、レビューを依頼してマージする |
 | [9. クラウドセッションに引き継ぐ][lesson-9] | 委任 | ハーネスを Cloud に切り替え、新機能の作成を委任する |

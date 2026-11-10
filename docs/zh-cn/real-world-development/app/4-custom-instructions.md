@@ -64,8 +64,9 @@ lastUpdated: 2026-07-09
 > 指令文件对 Copilot 生成的代码影响很大，因此应确保它们能清晰地引导 Copilot。可以先让 Copilot 创建初稿，再自行审查更新是否符合要求。[Awesome Copilot 上的指令文件集合][awesome-copilot]也可作为很好的起点。
 
 1. 在同一个 Files 画布中，转到 `.github/copilot-instructions.md`。
-2. 找到文件中部附近的 **Code formatting requirements** 标题。
-3. 在该标题下方添加以下最后一个列表项：
+2. 选择文件工具栏中的代码按钮（`<>` 图标），切换到可编辑的源代码视图。
+3. 找到文件中部附近的 **Code formatting requirements** 标题。
+4. 在该标题下方添加以下最后一个列表项：
 
    ```plaintext
    All new TypeScript should contain TSDocs comments for documentation purposes.
@@ -90,7 +91,7 @@ lastUpdated: 2026-07-09
 
    ![GitHub Copilot app 会话面板选项卡，箭头指向 Changes 选项卡](../../../_images/app-select-changes.png)
 
-3. 阅读所有 TypeScript 文件，注意新生成的 TSDoc 注释。
+3. 阅读 TypeScript 文件，注意新生成的 TSDoc 注释。
 
 ## 总结与后续步骤
 

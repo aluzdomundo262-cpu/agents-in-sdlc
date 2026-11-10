@@ -27,7 +27,7 @@ lastUpdated: 2026-09-16
 
 1. VS Code で同じ Tailspin Toys リポジトリを開き、`foundry-agent-vscode` ブランチを使います。`db/catalog.json` が存在し、**Foundry Toolkit** > **My Resources** に `tailspin-toys` プロジェクトとテスト済みモデルのデプロイが表示されることを確認します。
 2. [前のチェックポイント][previous-lesson]が完了していることを確認します。リソースをクリーンアップした場合は、先に進む前にプロジェクトとモデルの準備をもう一度完了します。
-3. Azure Developer CLI (`azd`) がまだ利用できない場合はインストールします。ホスト型エージェントのデプロイに使います。自分の OS に対応するコマンドだけを選びます。
+3. Azure Developer CLI (`azd`) がまだ利用できない場合はインストールします。ホスト型エージェントのデプロイに使います。自分のオペレーティングシステム (OS) に対応するコマンドだけを選びます。
 
    ```bash
    # macOS / Linux

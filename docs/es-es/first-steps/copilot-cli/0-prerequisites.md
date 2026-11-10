@@ -42,7 +42,7 @@ La [GitHub CLI][gh-cli] (`gh`) es opcional, pero recomendable, porque permite qu
 4. Ejecuta `/model` y elige un modelo siguiendo el orden de preferencia de la siguiente sección.
 5. Opcionalmente, instala la [GitHub CLI][gh-cli] si aún no lo has hecho.
 
-![Ilustración de Copilot CLI en una ventana de terminal titulada space-quiz. Pregunta si se debe confiar en los archivos de esta carpeta, con Yes, proceed seleccionado, y sugiere el comando /model para elegir el modelo de la sesión y /help para enumerar todos los comandos de barra. La línea del prompt dice Create a space exploration quiz.](../../../_images/first-steps-cli-welcome.svg)
+![Ilustración de Copilot CLI en una ventana de terminal titulada space-quiz. Pregunta si se debe confiar en los archivos de esta carpeta, con Yes, proceed seleccionado, y sugiere el comando /model para elegir el modelo de la sesión y /help para enumerar todos los comandos de barra. La línea de entrada muestra «Create a space exploration quiz».](../../../_images/first-steps-cli-welcome.svg)
 
 La CLI se abre con una solicitud para confiar en la carpeta y algunos comandos iniciales, incluido `/model`.
 

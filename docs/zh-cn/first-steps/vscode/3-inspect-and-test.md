@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-发布任何内容之前，先检查 Copilot 能看到什么，并确认测验能正常工作。
+发布任何内容之前，先检查 Copilot 能看到什么，并确认测验运行正常。
 
 本课将：
 
@@ -31,7 +31,7 @@ Run a browser-level smoke test for the quiz. Check keyboard navigation, score up
 ```
 
 1. 运行冒烟测试，并检查集成浏览器。
-2. 修复所有失败项，并重新测试，直到全部通过。
+2. 修复失败项并重新测试，直到全部通过。
 3. 只有构建和测试通过后，才开始使用 Git。
 
 ## 总结与后续步骤

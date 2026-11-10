@@ -19,7 +19,7 @@ En esta lección:
 
 ## Delega a la nube
 
-![Ilustración de Copilot Chat en VS Code con el selector Harness abierto. En Copilot, Cloud está seleccionado en lugar de Local, y aparecen otros entornos, como Claude y Codex. Arriba, una solicitud para añadir tres nuevos temas de color muestra Working in the cloud con un enlace para seguir la sesión en GitHub.](../../../_images/first-steps-vscode-cloud-harness.svg)
+![Ilustración de Copilot Chat en Visual Studio Code (VS Code) con el selector Harness abierto. En Copilot, Cloud está seleccionado en lugar de Local, y aparecen otros entornos, como Claude y Codex. Arriba, una solicitud para añadir tres nuevos temas de color muestra Working in the cloud con un enlace para seguir la sesión en GitHub.](../../../_images/first-steps-vscode-cloud-harness.svg)
 
 El selector **Harness** muestra Copilot ejecutándose en **Local** o **Cloud**, junto con otros entornos. Cambia a **Cloud** y la siguiente solicitud se ejecutará en GitHub en lugar de en tu equipo.
 
@@ -27,7 +27,7 @@ El selector **Harness** muestra Copilot ejecutándose en **Local** o **Cloud**, 
 2. Inicia una nueva sesión y asígnale una funcionalidad independiente con criterios de aceptación claros:
 
    ```plaintext
-   Add a theme picker to the space quiz with three named themes: Deep Space, Launch Pad, and Lunar. Persist the choice in localStorage, keep everything in the single index.html with no dependencies, keep contrast accessible in every theme, and open a pull request when the tests pass.
+   Añade al cuestionario espacial un selector de temas con tres temas llamados Deep Space, Launch Pad y Lunar. Guarda la selección en localStorage, mantén todo en un único archivo index.html sin dependencias, garantiza un contraste accesible en todos los temas y abre una solicitud de incorporación de cambios cuando pasen las pruebas.
    ```
 
 3. Cierra el portátil. El trabajo continúa en GitHub y llega como solicitud de incorporación de cambios.

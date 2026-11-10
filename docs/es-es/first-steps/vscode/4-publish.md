@@ -1,6 +1,6 @@
 ---
 title: "Lección 4 - Publicar el proyecto"
-description: "Inicializa el proyecto, crea un commit y publica Space Quiz utilizando exclusivamente la integración de Source Control incluida en VS Code."
+description: "Inicializa el proyecto, crea un commit y publica Space Quiz utilizando exclusivamente la integración de Source Control incluida en Visual Studio Code (VS Code)."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
@@ -18,13 +18,13 @@ En esta lección:
 
 1. Abre **Source Control** y selecciona **Initialize Repository**.
 2. Prepara los archivos para el commit.
-3. Selecciona el icono **sparkle pencil** en el cuadro del mensaje del commit para que Copilot escriba el mensaje a partir de las diferencias preparadas. Lee el mensaje, corrige lo que no sea correcto y crea el commit.
+3. Selecciona el icono del lápiz con destellos en el cuadro del mensaje del commit para que Copilot redacte el mensaje a partir de las diferencias preparadas. Lee el mensaje, corrige lo que no sea correcto y crea el commit.
 4. Selecciona **Publish Branch** y crea un repositorio público `space-quiz` en GitHub.
 5. Confirma que el archivo probado está presente en GitHub.
 
-![Ilustración de la vista Source Control de VS Code. La lista Changes muestra index.html y .github/copilot-instructions.md. Un aviso sobre el botón de destellos del cuadro del mensaje del commit dice que Copilot ha escrito tu mensaje, y el mensaje dice Añadir un temporizador por pregunta al cuestionario. Debajo del botón Commit, el botón Create Pull Request está resaltado con la nota de que primero debes crear el commit y, después, este botón aparece dentro de Source Control.](../../../_images/first-steps-vscode-commit.svg)
+![Ilustración de la vista Source Control de VS Code. La lista **Changes** muestra `index.html` y `.github/copilot-instructions.md`. Un aviso sobre el botón de destellos del cuadro del mensaje del commit dice «Copilot wrote your message», y el mensaje dice «Add per-question timer to the quiz». Debajo del botón **Commit**, aparece resaltado el botón **Create Pull Request**, junto a la nota «Commit first, then this button appears right inside Source Control».](../../../_images/first-steps-vscode-commit.svg)
 
-El botón de destellos redacta un mensaje de commit a partir de las diferencias preparadas. Una vez creado el commit, **Source Control** también ofrece crear la solicitud de incorporación de cambios.
+El botón con destellos redacta un mensaje de commit a partir de las diferencias preparadas. Una vez creado el commit, **Source Control** también ofrece crear la solicitud de incorporación de cambios.
 
 ## Resumen y pasos siguientes
 

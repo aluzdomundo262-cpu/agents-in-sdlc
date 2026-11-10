@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-Crea un área de trabajo local para Space Quiz y configura una sesión que te permita mantener el control cuando el agente empiece a trabajar.
+Un área de trabajo local para Space Quiz y una sesión bien configurada te permiten mantener el control cuando el agente empiece a trabajar.
 
 En esta lección:
 
@@ -15,6 +15,8 @@ En esta lección:
 - confirmarás la carpeta, el modo y el modelo antes del primer prompt.
 
 ## Crea el área de trabajo
+
+Los siguientes pasos configuran la carpeta y la sesión para que puedas revisar dónde trabajará el agente y con qué modo y modelo antes de enviar el primer prompt.
 
 1. Abre la aplicación GitHub Copilot y confirma que has iniciado sesión.
 2. Selecciona **New**, después **Open folder**, y elige una carpeta vacía llamada `space-quiz`. Si no existe, créala primero.
@@ -28,7 +30,11 @@ En la pantalla **New** estableces la carpeta, el modo y el agente antes de escri
 
 ## Resumen y pasos siguientes
 
-Tu área de trabajo vacía de Space Quiz está lista. Continúa con la [lección 2: Crear y perfeccionar el cuestionario][next-lesson].
+- Has abierto una carpeta local vacía.
+- Has iniciado una sesión de agente Interactive.
+- Has confirmado la carpeta, el modo y el modelo antes del primer prompt.
+
+Continúa con la [lección 2: Crear y perfeccionar el cuestionario][next-lesson].
 
 [model-order]: ../0-prerequisites/#elige-un-modelo
 [next-lesson]: ../2-build-and-polish/

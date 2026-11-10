@@ -37,6 +37,7 @@ La inspección y la implementación del agente hospedado utilizan Azure Develope
    ```
 
 3. Ejecuta `azd config show` para verificar la suscripción de Azure. Si está vacía o es incorrecta, actualízala con `azd config set defaults.subscription <subscription-id>` y vuelve a ejecutar `azd config show` para confirmar el cambio.
+
 ## Generar la estructura inicial de Backer Concierge
 
 Canvas genera el código, la estructura de carpetas y el archivo `azure.yaml` de la raíz que conectan Backer Concierge con la implementación del modelo existente.
@@ -151,7 +152,7 @@ Canvas utiliza `azd` para implementar el agente probado. Foundry empaqueta el c�
 
 ## Punto de control y pasos siguientes
 
-Has generado la estructura inicial de Backer Concierge, probado en local su fundamentación en el catálogo y su comportamiento durante la conversación, lo has implementado en Microsoft Foundry y has vuelto a probar la versión hospedada. El punto de control de este módulo es un agente hospedado que supera las seis comprobaciones de aceptación sin inventar información que no está disponible.
+Has generado la estructura inicial de Backer Concierge, probado en local que sus respuestas se basan en el catálogo y que mantiene el contexto de la conversación, lo has implementado en Microsoft Foundry y has vuelto a probar la versión hospedada. El punto de control de este módulo es un agente hospedado que supera las seis comprobaciones de aceptación sin inventar información que no está disponible.
 
 A continuación, usarás el mismo repositorio de Tailspin Toys, la misma rama del worktree, la misma sesión vinculada a la incidencia, el mismo proyecto de Foundry, la implementación del modelo seleccionada y el agente hospedado para [conectar el agente al sitio][next-module]. Si te detienes aquí, [limpia los recursos de Azure][cleanup] para evitar costes continuos.
 

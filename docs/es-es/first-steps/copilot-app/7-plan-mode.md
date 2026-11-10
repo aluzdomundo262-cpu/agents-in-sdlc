@@ -16,6 +16,8 @@ En esta lección:
 
 ## Acuerda el enfoque antes de cambiar el código
 
+El modo Plan permite que el agente investigue una segunda incidencia y espere tu aprobación antes de implementar cambios.
+
 1. Abre una **segunda incidencia** desde **Issues** y selecciona **New session**.
 2. En la configuración de la sesión, elige **Plan** en lugar de **Interactive** o **Autopilot**.
 3. Envía el siguiente prompt y deja que el agente investigue sin modificar archivos:
@@ -35,6 +37,10 @@ En esta lección:
 
 ## Resumen y pasos siguientes
 
-Has acordado un enfoque con el agente antes de que escribiera código. Continúa con la [lección 8: Completar el ciclo de revisión de Copilot][next-lesson].
+- Has iniciado una sesión para una segunda incidencia en modo Plan.
+- Has revisado y perfeccionado el plan propuesto por el agente.
+- Has aprobado el plan y elegido cómo continúa la sesión.
+
+Continúa con la [lección 8: Completar el ciclo de revisión de Copilot][next-lesson].
 
 [next-lesson]: ../8-review-loop/

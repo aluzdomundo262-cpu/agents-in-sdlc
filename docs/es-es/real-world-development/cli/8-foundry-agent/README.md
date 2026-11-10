@@ -7,7 +7,7 @@ authors:
 lastUpdated: 2026-09-16
 ---
 
-Esta serie opcional usa GitHub Copilot CLI y la habilidad Microsoft Foundry para convertir el catálogo de Tailspin Toys en un asistente conversacional. Los tres módulos te llevan desde la configuración del proyecto y del modelo hasta un agente hospedado y una integración funcional con el sitio web.
+Esta serie opcional usa la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI) y la habilidad de Microsoft Foundry para convertir el catálogo de Tailspin Toys en un asistente conversacional. Los tres módulos te guían desde la configuración del proyecto y del modelo hasta un agente hospedado y una integración funcional con el sitio web.
 
 En esta serie:
 
@@ -49,7 +49,7 @@ Cuando termines de experimentar en cualquiera de los puntos de comprobación, el
 > Elimina `rg-tailspin-toys` solo si está dedicado a este ejercicio y no contiene recursos que necesites conservar. Si eliminas un grupo de recursos compartido, también eliminarás recursos ajenos al ejercicio.
 
 1. Detén cualquier agente local, función o servidor de desarrollo de Astro que hayas iniciado pulsando <kbd>Ctrl</kbd>+<kbd>C</kbd> en su terminal.
-2. Sal de Copilot CLI. Si generaste la estructura del agente en el módulo 2, ejecuta lo siguiente desde la raíz del repositorio de Tailspin Toys usando el mismo entorno de `azd`:
+2. Sal de Copilot CLI. Si generaste la estructura del agente en el módulo 2, ejecuta lo siguiente desde la raíz del repositorio de Tailspin Toys usando el mismo entorno de Azure Developer CLI (`azd`):
 
     ```bash
     azd down --purge
@@ -67,14 +67,14 @@ Cuando termines de experimentar en cualquiera de los puntos de comprobación, el
 ## Recursos
 
 - [Complemento Azure Skills][azure-skills]
-- [Usar la habilidad Microsoft Foundry en agentes de programación][foundry-skill]
-- [Desplegar tu primer agente hospedado con la habilidad Microsoft Foundry][hosted-agent-quickstart]
+- [Usar la habilidad de Microsoft Foundry en agentes de programación][foundry-skill]
+- [Desplegar tu primer agente hospedado con la habilidad de Microsoft Foundry][hosted-agent-quickstart]
 - [Permisos de los agentes hospedados][hosted-agent-permissions]
 
 [project-model]: 1-project-and-model/
 [build-deploy]: 2-build-and-deploy/
 [connect-site]: 3-connect-to-site/
-[review]: ../9-review/
+[review]: ../10-review/
 [cleanup]: #elimina-los-recursos
 [azure-skills]: https://github.com/microsoft/azure-skills#github-copilot-cli
 [foundry-skill]: https://learn.microsoft.com/azure/foundry/how-to/develop/use-microsoft-foundry-skill?tabs=copilot-cli

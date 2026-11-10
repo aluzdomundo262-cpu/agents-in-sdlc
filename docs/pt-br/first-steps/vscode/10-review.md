@@ -18,7 +18,7 @@ Você:
 - inspecionou o contexto da conversa e executou um teste básico de funcionamento antes de qualquer gravação no Git.
 - publicou com **Source Control** e uma mensagem de commit redigida pelo Copilot.
 - planejou um recurso no modo Plan antes de qualquer edição.
-- habilitou o MCP do GitHub e criou issues pela conversa.
+- habilitou o Model Context Protocol (MCP) do GitHub e criou issues pela conversa.
 - criou, revisou e mesclou um pull request pelo VS Code.
 - delegou um recurso para uma sessão na nuvem.
 
@@ -31,7 +31,7 @@ Você:
 - [Instale o Git][git].
 - [Compare os planos do Copilot][copilot-plans].
 
-Crie o mesmo Space Quiz com outra forma de trabalhar no [workshop de primeiros passos com o aplicativo GitHub Copilot][first-steps-app] ou no [workshop de primeiros passos com o GitHub Copilot CLI][first-steps-cli]. Se estiver pronto para um cenário mais aprofundado com uma aplicação completa e um backlog de equipe, continue com o [workshop de desenvolvimento no mundo real com o VS Code][real-world-vscode].
+Experimente criar o mesmo Space Quiz de outra forma, seguindo o [workshop de primeiros passos com o aplicativo GitHub Copilot][first-steps-app] ou o [workshop de primeiros passos com o GitHub Copilot CLI][first-steps-cli]. Se estiver pronto para um cenário mais aprofundado com uma aplicação completa e um backlog de equipe, continue com o [workshop de desenvolvimento no mundo real com o VS Code][real-world-vscode].
 
 [copilot-vscode]: https://code.visualstudio.com/docs/copilot/overview
 [pr-extension]: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github

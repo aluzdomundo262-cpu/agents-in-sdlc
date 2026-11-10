@@ -28,7 +28,7 @@ lastUpdated: 2026-10-12
 1. 为 Canvas 选择 **New session**。
 2. 选择 `space-quiz` 项目。
 3. 探索议题看板。
-4. 将议题卡片移到正在进行的工作列。
+4. 将议题卡片移入进行中工作列。
 5. 打开自动生成的会话。
 6. 确认选定的议题已作为会话上下文提供。
 
@@ -37,13 +37,13 @@ lastUpdated: 2026-10-12
 将卡片放入泳道后，Canvas 会将该议题交给新会话，并预先加载议题内容。
 
 > [!NOTE]
-> 当前的 Repository Issues Kanban 扩展通过基于指针的拖放操作移动卡片。如果无法使用这种交互方式，记下看板上的议题编号，从 **Issues** 打开该议题，然后选择 **New session**。这样无需移动卡片，也能创建同样以议题为依据的会话。
+> 当前的 Repository Issues Kanban 扩展通过指针拖放操作移动卡片。如果无法使用这种交互方式，记下看板上的议题编号，从 **Issues** 打开该议题，然后选择 **New session**。这样无需移动卡片，也能创建同样以议题为依据的会话。
 
 Canvas 提供可视化的方式来选择并开始工作，同时让智能体始终以议题为依据。
 
 ## 总结与后续步骤
 
-已经通过共享的可视化界面启动智能体会话。继续学习[第 12 课：使用 GitHub Pages 部署网站][next-lesson]。
+已安装 Canvas 扩展并将其关联到 Space Quiz 存储库，将一个议题移入正在进行的工作，并检查从该议题创建的会话。继续学习[第 12 课：使用 GitHub Pages 部署网站][next-lesson]。
 
 [canvas-gallery]: https://awesome-copilot.github.com/extensions/
 [kanban-extension]: https://awesome-copilot.github.com/extension/accessibility-kanban/

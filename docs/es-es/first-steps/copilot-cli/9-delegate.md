@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-Has entregado una funcionalidad. Ahora que sabes cómo es un buen resultado, merece la pena desarrollar una idea completamente nueva en paralelo en lugar de tener que atenderla directamente. En esta lección delegarás un **informe de misión que se pueda compartir**, que convierte una partida terminada en una tarjeta que el jugador puede publicar.
+Ya has sacado adelante una funcionalidad. Ahora que sabes reconocer un buen resultado, puedes trabajar en una idea completamente nueva en paralelo, en lugar de dejar que interrumpa tu tarea actual. En esta lección delegarás un **informe de misión que se pueda compartir**, que convierte una partida terminada en una tarjeta que el jugador puede publicar.
 
 En esta lección:
 
@@ -22,7 +22,7 @@ En esta lección:
 Ejecuta `/delegate` y entrega la siguiente tarea:
 
 ```plaintext
-Delegate this: add a shareable mission report to the space quiz. At the end of a run, generate a compact summary card with the score, a rank title based on the percentage, and the slowest question. Add a Copy result button that puts a short plain-text version on the clipboard. Keep it in the single index.html with no dependencies, keep it keyboard accessible, and report back with what changed.
+Delega esta tarea: añade a Space Quiz un informe de misión que se pueda compartir. Al terminar una partida, genera una tarjeta de resumen compacta con la puntuación, un título de rango basado en el porcentaje y la pregunta que se haya respondido más lentamente. Añade un botón «Copiar resultado» que copie al portapapeles una versión breve en texto sin formato. Mantén todo en el único archivo index.html, sin dependencias y accesible con teclado, e indica qué ha cambiado.
 ```
 
 1. Sigue trabajando en la sesión principal mientras se ejecuta la tarea delegada.

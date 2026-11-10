@@ -26,7 +26,7 @@ Delegate this: add a shareable mission report to the space quiz. At the end of a
 ```
 
 1. 在委派任务运行时，继续在主会话中工作。
-2. 接受结果之前，将委派结果与当前会话进行比较。
+2. 接受结果之前，将委派结果与当前会话中的工作进行比较。
 3. 对于范围更大、说明清晰的议题，启动**云会话**，并从 CLI 查看进度。
 
 ## 总结与后续步骤

@@ -44,7 +44,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 4. **Create new hosted agents** 미리 보기에서 다음을 입력합니다.
 
    ```plaintext
-   Scaffold a hosted agent named Backer Concierge in agent/backer-concierge, connected to the tailspin-toys project and the model deployment I just confirmed. Use Microsoft Agent Framework with the Responses API. Ground it in db/catalog.json and ensure it meets the acceptance criteria in this issue. Keep a single azure.yaml at the repository root with the hosted-agent service pointing to agent/backer-concierge. Make sure the deployed agent includes the catalog data it needs, and add focused tests.
+   방금 확인한 `tailspin-toys` 프로젝트와 모델 배포를 사용하는 Backer Concierge라는 호스팅 에이전트의 기본 구조를 `agent/backer-concierge`에 만드십시오. Responses API와 함께 Microsoft Agent Framework를 사용하십시오. `db/catalog.json`을 근거로 사용하고 이 이슈의 인수 기준을 충족하십시오. 호스팅 에이전트 서비스가 `agent/backer-concierge`를 가리키는 `azure.yaml` 하나만 리포지토리 루트에 유지하십시오. 배포된 에이전트에 필요한 카탈로그 데이터가 포함되도록 하고 집중 테스트를 추가하십시오.
    ```
 
    Canvas는 프롬프트와 현재 구독 및 Foundry 프로젝트 컨텍스트를 Copilot에 전달합니다. Agent Framework + Responses API 샘플을 검색하며, **Agent with Local Tools (Responses, Agent Framework, Python)** 같은 선택 항목이 나타날 수 있습니다.
@@ -85,7 +85,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 9. Agent Inspector에서 **카탈로그에 근거한 추천**을 테스트합니다.
 
     ```text
-    I love puzzle games about tracking down bugs. What should I back?
+    버그를 추적하는 퍼즐 게임을 좋아합니다. 어떤 게임을 후원해야 하나요?
     ```
 
     예상 결과: 카탈로그에 실제로 존재하는 게임만 언급하고 각 게임에 대해 올바른 정보를 사용합니다.
@@ -95,7 +95,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 10. **환각(Hallucination) 유도 질문**을 테스트합니다.
 
     ```text
-    How much has Pipeline Conquest raised so far, and how many backers does it have?
+    Pipeline Conquest는 지금까지 얼마나 모금했고 후원자는 몇 명인가요?
     ```
 
     예상 결과: 카탈로그에는 펀딩이나 후원자 정보가 없음을 설명하고, 대신 카탈로그에 있는 정보를 제공합니다.
@@ -103,7 +103,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 11. **카탈로그 외 게임 요청에 대한 대응**을 테스트합니다.
 
     ```text
-    Do you have Wingspan? If not, what's the closest thing you've got?
+    Wingspan이 있나요? 없다면 가장 비슷한 게임은 무엇인가요?
     ```
 
     예상 결과: 카탈로그에 Wingspan이 없다고 밝히고, 외부 지식으로 이 게임을 설명하지 않으며, 실제 Tailspin 게임을 안내합니다.
@@ -111,7 +111,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 12. **모호한 요청**을 테스트합니다.
 
     ```text
-    Recommend me something good.
+    좋은 게임을 추천해 주십시오.
     ```
 
     예상 결과: 짧은 확인 질문을 하나 하고 아직 게임을 추천하지 않습니다.
@@ -119,7 +119,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 13. **순위 정확성**을 테스트합니다.
 
     ```text
-    What are your three highest rated games?
+    평점이 가장 높은 게임 세 가지는 무엇인가요?
     ```
 
     예상 결과: 카탈로그에서 평점이 가장 높은 게임 세 개를 올바른 순서와 평점으로 반환합니다.
@@ -127,11 +127,11 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 14. 동일한 대화에서 다음 프롬프트를 보내 **대화 연속성**을 테스트합니다.
 
     ```text
-    Show me two highly rated strategy games.
+    평점이 높은 전략 게임 두 개를 보여 주십시오.
     ```
 
     ```text
-    Which of those has the higher rating?
+    그 두 게임 중 평점이 더 높은 게임은 무엇인가요?
     ```
 
     예상 결과: 두 번째 응답은 첫 번째 응답의 두 게임만 언급하고 카탈로그 평점을 올바르게 비교합니다.

@@ -18,10 +18,10 @@ Nesta lição, você vai:
 
 ![Ilustração da visualização Automations do aplicativo Copilot com filtros All, Local e Cloud, uma caixa de pesquisa, botões Templates e New automation e dois cartões de automação semanal para o projeto space-quiz: Issue triage e Accessibility audit.](../../../_images/first-steps-app-automations.svg)
 
-As automações executam o mesmo prompt em horários agendados, cada uma em sua própria sessão, para que uma automação nunca interfira no seu trabalho. Você pode filtrar por **All**, **Local** ou **Cloud** e executar qualquer automação sob demanda.
+As automações executam o mesmo prompt em horários definidos, cada uma em sua própria sessão, para que uma automação nunca interfira no seu trabalho. Você pode filtrar por **All**, **Local** ou **Cloud** e executar qualquer automação sob demanda.
 
 1. Abra **Automations**.
-2. Escolha o modelo para uma nova automação semanal.
+2. Escolha um template para criar uma automação semanal.
 3. Insira o seguinte prompt:
 
    ```plaintext

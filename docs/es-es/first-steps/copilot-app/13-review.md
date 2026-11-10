@@ -1,6 +1,6 @@
 ---
 title: "Lección 13 - Repaso y pasos siguientes"
-description: "Repasa el flujo de trabajo de la aplicación GitHub Copilot, incluida la publicación en GitHub Pages, y encuentra recursos para seguir aprendiendo."
+description: "Repasa el flujo de trabajo de la aplicación GitHub Copilot, incluida la publicación en GitHub Pages, y encuentra recursos para profundizar."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-10-12
@@ -13,12 +13,12 @@ Has dirigido a un agente por un flujo de trabajo de desarrollo completo, desde u
 Has:
 
 - creado un proyecto local en modo Interactive.
-- creado y perfeccionado un cuestionario con información del explorador en tiempo real.
-- inspeccionado los detalles de la sesión y ejecutado una prueba de humo en el explorador.
+- creado y perfeccionado un cuestionario con respuesta en tiempo real en el navegador.
+- inspeccionado los detalles de la sesión y ejecutado una prueba de humo en el navegador.
 - recogido las reglas del proyecto con `/init`.
 - publicado el proyecto como repositorio de GitHub.
 - creado un backlog bien delimitado.
-- implementado una incidencia en un árbol de trabajo aislado y revisado las diferencias.
+- implementado una incidencia en un worktree aislado y revisado las diferencias.
 - planificado una segunda incidencia antes de cambiar el código.
 - entregado una incidencia mediante la revisión de una solicitud de incorporación de cambios y Agent Merge.
 - automatizado la clasificación semanal de incidencias.

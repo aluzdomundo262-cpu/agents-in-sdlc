@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-Convierte la incidencia implementada en una solicitud de incorporación de cambios, solicita una revisión de Copilot y atiende los comentarios antes de combinarla.
+La incidencia implementada pasa a una solicitud de incorporación de cambios (PR), que se somete a una revisión de Copilot y se actualiza con los comentarios pertinentes antes de fusionarla.
 
 En esta lección:
 
@@ -14,14 +14,20 @@ En esta lección:
 - crearás una solicitud de incorporación de cambios desde la sesión del agente.
 - solicitarás una revisión de código de Copilot.
 - revisarás y aplicarás los comentarios que requieran cambios.
-- activarás Agent Merge para mantener la solicitud de incorporación de cambios en buen estado hasta que se combine.
+- activarás Agent Merge para mantener la solicitud de incorporación de cambios en buen estado hasta que se fusione.
 
 ## Crea y revisa la solicitud de incorporación de cambios
 
+La revisión empieza por inspeccionar los cambios de la sesión y termina al resolver los comentarios pertinentes:
+
 > [!IMPORTANT]
-> Copilot Free no incluye la revisión de código de Copilot para solicitudes de incorporación de cambios. Utiliza Copilot Student o un plan de pago de Copilot que incluya la revisión de código. Una organización también puede habilitar la revisión de código de pago en GitHub.com para miembros sin una licencia de Copilot. Consulta la [disponibilidad de la revisión de código de Copilot][code-review].
+> Copilot Free no incluye la revisión de código de Copilot para solicitudes de incorporación de cambios. Copilot Student y algunos planes de pago de Copilot sí la incluyen. Una organización también puede habilitar la revisión de código de pago en GitHub.com para miembros sin una licencia de Copilot. La [disponibilidad de la revisión de código de Copilot][code-review] detalla estas opciones.
 >
-> Si no tienes acceso, completa los pasos 1-4, revisa las diferencias tú mismo o pide a un compañero que las revise y omite los pasos 5-9, que dependen de los comentarios de revisión de Copilot. Atiende los comentarios de los revisores humanos y vuelve a probar la funcionalidad antes de continuar con la sección de combinación.
+> Si no tienes acceso:
+>
+> 1. Utiliza Copilot Student o un plan de pago de Copilot que incluya la revisión de código. Una organización también puede habilitar la revisión de código de pago en GitHub.com para miembros sin una licencia de Copilot.
+> 2. Si sigues sin tener acceso, completa los pasos 1-4, revisa las diferencias tú mismo o pide a un compañero que las revise y omite los pasos 5-9, que dependen de los comentarios de revisión de Copilot.
+> 3. Atiende los comentarios de los revisores humanos y vuelve a probar la funcionalidad antes de continuar con la sección de fusión.
 
 1. Abre el panel desplegable de la derecha y selecciona la pestaña **Changes** para inspeccionar los archivos modificados en la sesión.
 2. Selecciona **Create PR** en la barra de herramientas de la sesión.
@@ -34,17 +40,27 @@ En esta lección:
 9. Responde con una descripción concisa de lo que ha cambiado y resuelve la conversación.
 
 > [!NOTE]
-> Si una sugerencia no es aplicable o queda fuera del alcance de la solicitud de incorporación de cambios, responde con el motivo en lugar de realizar un cambio innecesario. Resuelve todas las conversaciones de revisión antes de combinar.
+> Si una sugerencia no es aplicable o queda fuera del alcance de la solicitud de incorporación de cambios:
+>
+> 1. Responde con el motivo en lugar de realizar un cambio innecesario.
+> 2. Resuelve todas las conversaciones de revisión antes de fusionar.
 
-## Combina con Agent Merge
+## Fusiona con Agent Merge
 
-Activa **Agent Merge** para la solicitud de incorporación de cambios y deja que el agente la mantenga en buen estado. El agente atiende los comentarios de revisión, corrige las comprobaciones que fallan y resuelve los conflictos a medida que aparecen; después, combina la solicitud cuando todo pasa.
+Agent Merge puede mantener la PR en buen estado hasta que se fusione; también puedes completar la fusión manualmente. Elige una de estas opciones:
 
-Si prefieres combinarla tú mismo, revisa las diferencias finales, comprueba la funcionalidad y combina la solicitud de incorporación de cambios cuando pasen todas las comprobaciones.
+1. Activa **Agent Merge** para la PR. El agente atenderá los comentarios de revisión, corregirá las comprobaciones que fallen y resolverá los conflictos a medida que aparezcan; después, fusionará la solicitud cuando todo pase.
+2. Si prefieres fusionarla tú mismo, revisa las diferencias finales, comprueba la funcionalidad y fusiónala cuando pasen todas las comprobaciones.
 
 ## Resumen y pasos siguientes
 
-Has completado el ciclo de desarrollo desde la incidencia hasta la solicitud de incorporación de cambios revisada y combinada. Continúa con la [lección 9: Automatizar la clasificación de incidencias][next-lesson].
+- Has inspeccionado por última vez los cambios de la sesión.
+- Has creado una PR desde la sesión del agente.
+- Has solicitado una revisión de código de Copilot.
+- Has revisado y aplicado los comentarios pertinentes.
+- Has activado Agent Merge para mantener la PR en buen estado hasta que se fusione.
+
+Continúa con la [lección 9: Automatizar la clasificación de incidencias][next-lesson].
 
 [code-review]: https://docs.github.com/copilot/concepts/agents/code-review
 [next-lesson]: ../9-automations/

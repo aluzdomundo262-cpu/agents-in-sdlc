@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-16
 ---
 
-| [← Opcional: Incorporar o Foundry][overview] |
+| [← Opcional: Integrar o Foundry][overview] |
 |:--|
 
 Este primeiro módulo prepara os dados e o modelo para o Backer Concierge usando o VS Code e o Microsoft Foundry Toolkit. Trabalhe no seu próprio repositório da Tailspin Toys usado no workshop obrigatório.

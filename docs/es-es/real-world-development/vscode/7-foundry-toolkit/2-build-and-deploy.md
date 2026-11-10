@@ -1,6 +1,6 @@
 ---
-title: "Crear e implementar un agente"
-description: "Genera la estructura de Backer Concierge y depúralo en VS Code; después, impleméntalo y pruébalo como agente hospedado de Foundry."
+title: "Crear y desplegar un agente"
+description: "Genera la estructura de Backer Concierge y depúralo en VS Code; después, despliégalo y pruébalo como agente hospedado de Foundry."
 authors:
   - juliamuiruri4
 lastUpdated: 2026-09-16
@@ -9,7 +9,7 @@ lastUpdated: 2026-09-16
 | [← Módulo anterior: Preparar un proyecto y un modelo][previous-lesson] |
 |:--|
 
-Este módulo utiliza el catálogo y el modelo probado de [Preparar un proyecto y un modelo][previous-lesson]. Microsoft Foundry Toolkit y su agente personalizado **AIAgentExpert** guían la creación local y la implementación hospedada en VS Code.
+Este módulo utiliza el catálogo y el modelo probado de [Preparar un proyecto y un modelo][previous-lesson]. Microsoft Foundry Toolkit y su agente personalizado **AIAgentExpert** guían el desarrollo local y el despliegue hospedado en VS Code.
 
 ## Objetivos
 
@@ -23,11 +23,11 @@ Una recomendación fiable debe seguir siéndolo más allá de una sola conversac
 
 ## Retomar el área de trabajo
 
-El agente utiliza la implementación del modelo existente; no hay que crear un nuevo proyecto de Foundry.
+El agente utiliza el despliegue del modelo existente; no hay que crear un nuevo proyecto de Foundry.
 
-1. Abre el mismo repositorio de Tailspin Toys en VS Code en `foundry-agent-vscode`. Confirma que existe `db/catalog.json` y que el proyecto `tailspin-toys` y la implementación del modelo probado están visibles en **Foundry Toolkit** > **My Resources**.
+1. Abre el mismo repositorio de Tailspin Toys en VS Code en `foundry-agent-vscode`. Confirma que existe `db/catalog.json` y que el proyecto `tailspin-toys` y el despliegue del modelo probado están visibles en **Foundry Toolkit** > **My Resources**.
 2. Confirma que se ha completado el [punto de control anterior][previous-lesson]. Si se eliminaron los recursos, vuelve a completar la preparación del proyecto y del modelo antes de continuar.
-3. Instala Azure Developer CLI (`azd`) si todavía no está disponible. La implementación de agentes hospedados la utiliza; elige únicamente el comando correspondiente a tu sistema operativo:
+3. Instala Azure Developer CLI (`azd`) si todavía no está disponible. El despliegue de agentes hospedados la utiliza; elige únicamente el comando correspondiente a tu sistema operativo:
 
    ```bash
    # macOS / Linux
@@ -44,11 +44,11 @@ El agente utiliza la implementación del modelo existente; no hay que crear un n
    ```
 
 > [!IMPORTANT]
-> Los agentes hospedados y Foundry Toolkit están en versión preliminar pública. La implementación crea recursos facturables. Confirma la suscripción, los permisos, la región, la cuota y el coste estimado antes de aprobar comandos.
+> Los agentes hospedados y Foundry Toolkit están en versión preliminar pública. El despliegue crea recursos facturables. Confirma la suscripción, los permisos, la región, la cuota y el coste estimado antes de aprobar comandos.
 
 ## Crear y depurar el agente
 
-El kit de herramientas genera la estructura de código en el repositorio actual y abre un chat especializado de Copilot. Agent Inspector permite ver las solicitudes locales, los eventos y las llamadas a herramientas antes de la implementación.
+El kit de herramientas genera la estructura de código en el repositorio actual y abre un chat especializado de Copilot. Agent Inspector permite ver las solicitudes locales, los eventos y las llamadas a herramientas antes del despliegue.
 
 1. Selecciona **Foundry Toolkit**, expande **Developer Tools**, expande **+ Build** y selecciona **+ Create Agent**. En **Create Agent**, selecciona **Code an agent with Copilot**.
 
@@ -60,14 +60,14 @@ El kit de herramientas genera la estructura de código en el repositorio actual 
    /foundrytk-quick-start Create a backer concierge AI agent called 'Backer Concierge'. The agent should use the model I deployed to answer catalog questions and recommend games grounded strictly in db/catalog.json. Review the acceptance criteria in the issue titled 'Add a Backer Concierge assistant for catalog questions' and ensure the agent meets them. Generate the code into agent/backer-concierge in the current workspace and ask me if anything is unclear.
    ```
 
-3. Revisa el código generado en `agent/backer-concierge`. Confirma que el catálogo está incluido en el agente que se puede implementar, que las pruebas específicas pasan y que no se incluirán credenciales ni archivos de entorno locales en los commits.
+3. Revisa el código generado en `agent/backer-concierge`. Confirma que el catálogo está incluido en el agente listo para desplegar, que las pruebas específicas pasan y que no se incluirán credenciales ni archivos de entorno locales en los commits.
 4. Selecciona **Run and Debug** en la barra de actividades e inicia el depurador con <kbd>F5</kbd>. Confirma que **Agent Inspector** se carga y se conecta al servidor del agente.
-5. Reutiliza los seis prompts de [Probar el modelo implementado][model-tests]. Comprueba las respuestas con el archivo `db/catalog.json` completo, en lugar de suponer que la clasificación del subconjunto de nueve juegos coincide con la del catálogo completo.
-6. Alterna entre **Input & Output**, **Events** y **Tools** para inspeccionar los datos de las solicitudes y respuestas, los eventos de sesión y las llamadas a herramientas. Si el comportamiento incumple los criterios de aceptación, pide a Copilot que lo corrija y vuelve a ejecutar las pruebas específicas y las comprobaciones de Inspector antes de implementar.
+5. Reutiliza los seis prompts de [Probar el modelo desplegado][model-tests]. Comprueba las respuestas con el archivo `db/catalog.json` completo, en lugar de suponer que la clasificación del subconjunto de nueve juegos coincide con la del catálogo completo.
+6. Alterna entre **Input & Output**, **Events** y **Tools** para inspeccionar los datos de las solicitudes y respuestas, los eventos de sesión y las llamadas a herramientas. Si el comportamiento incumple los criterios de aceptación, pide a Copilot que lo corrija y vuelve a ejecutar las pruebas específicas y las comprobaciones de Inspector antes del despliegue.
 
    ![Captura de pantalla que muestra el flujo de depuración local del agente.](../../../../_images/vscode-agent-debug.png)
 
-## Implementar y probar el agente hospedado
+## Desplegar y probar el agente hospedado
 
 La transferencia **Go production** empaqueta el agente existente para Foundry. No convierte el posterior proxy del sitio en un servicio público listo para producción.
 
@@ -79,28 +79,28 @@ La transferencia **Go production** empaqueta el agente existente para Foundry. N
 
    ![Captura de pantalla que muestra las opciones de transferencia del agente AIAgentExpert.](../../../../_images/vscode-go-production-handoff.png)
 
-2. Revisa el chat y el terminal para comprobar los parámetros y las solicitudes de aprobación de comandos. Confirma que la implementación tiene como destino el proyecto `tailspin-toys` existente y revisa los recursos facturables antes de aprobar.
+2. Revisa el chat y el terminal para comprobar los parámetros y las solicitudes de aprobación de comandos. Confirma que el despliegue tiene como destino el proyecto `tailspin-toys` existente y revisa los recursos facturables antes de aprobar.
 3. Si Copilot ofrece un conjunto de evaluaciones, puedes aceptarlo y completarlo como comprobación adicional.
 4. Selecciona **Foundry Toolkit**, expande **My Resources** y selecciona **Agents**. En la pestaña **Agents**, cambia a **Hosted Agent**.
 
-   ![Captura de pantalla que muestra el agente hospedado implementado.](../../../../_images/vscode-agent-deployed.png)
+   ![Captura de pantalla que muestra el agente hospedado desplegado.](../../../../_images/vscode-agent-deployed.png)
 
-5. Selecciona el nombre del agente y confirma que el estado de implementación es **Running**. Cambia a **Playground** y repite las comprobaciones de fundamentación, datos ausentes, peticiones fuera del catálogo, peticiones vagas y clasificación con el catálogo implementado.
+5. Selecciona el nombre del agente y confirma que el estado del despliegue es **Running**. Cambia a **Playground** y repite las comprobaciones de fundamentación, datos ausentes, peticiones fuera del catálogo, peticiones vagas y clasificación con el catálogo desplegado.
 
-   ![Captura de pantalla que muestra una respuesta del agente hospedado implementado.](../../../../_images/vscode-agent-response.png)
+   ![Captura de pantalla que muestra una respuesta del agente hospedado desplegado.](../../../../_images/vscode-agent-response.png)
 
-6. Si la implementación o las respuestas fallan, inspecciona con Copilot el estado notificado y los registros, corrige el fallo en el proyecto existente y repite las comprobaciones. No continúes con una implementación sin verificar.
+6. Si el despliegue o las respuestas fallan, inspecciona con Copilot el estado notificado y los registros, corrige el fallo en el proyecto existente y repite las comprobaciones. No continúes sin verificar el despliegue.
 
 ## Punto de control al finalizar
 
-Has generado la estructura del Backer Concierge, depurado su fundamentación en el catálogo con Agent Inspector, lo has implementado en Foundry mediante el traspaso **Go production** y has vuelto a probar la versión hospedada en el Playground. El punto de control de este módulo es un agente hospedado en ejecución que respeta el catálogo sin inventar la información que falta.
+Has generado la estructura del Backer Concierge, depurado su fundamentación en el catálogo con Agent Inspector, lo has desplegado en Foundry mediante el traspaso **Go production** y has vuelto a probar la versión hospedada en el Playground. El punto de control de este módulo es un agente hospedado en ejecución que respeta el catálogo sin inventar la información que falta.
 
-A continuación, utilizarás el mismo proyecto `tailspin-toys`, la implementación del modelo y el agente hospedado para conectar el agente al sitio. Si paras aquí, [elimina los recursos de Azure][cleanup] para evitar costes continuados.
+A continuación, utilizarás el mismo proyecto `tailspin-toys`, el despliegue del modelo y el agente hospedado para conectar el agente al sitio. Si paras aquí, [elimina los recursos de Azure][cleanup] para evitar costes continuados.
 
 | [Siguiente módulo: Conectar el agente al sitio →][next-lesson] |
 |--:|
 
 [previous-lesson]: ../1-project-and-model/
-[model-tests]: ../1-project-and-model/#probar-el-modelo-implementado
+[model-tests]: ../1-project-and-model/#probar-el-modelo-desplegado
 [next-lesson]: ../3-connect-to-site/
 [cleanup]: ../#eliminar-los-recursos

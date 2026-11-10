@@ -20,7 +20,7 @@ Nesta lição, você vai:
 2. Revise o arquivo `.github/copilot-instructions.md` gerado antes de salvá-lo.
 3. Mantenha apenas orientações que correspondam a este projeto: um único arquivo, sem dependências, acessível e testado no navegador.
 
-![Ilustração do VS Code com .github/copilot-instructions.md aberto no editor e selecionado no Explorer, ao lado de index.html. O arquivo tem o título Space Quiz e lista regras: um único index.html sem dependências nem etapa de build, todas as respostas acessíveis pelo teclado e respeito a prefers-color-scheme nos dois temas. Uma seção intitulada How I like code written pede funções pequenas, retornos antecipados, nenhuma expressão engenhosa de uma linha e comentários apenas para o que realmente surpreende.](../../../_images/first-steps-vscode-instructions.svg)
+![Ilustração do VS Code com .github/copilot-instructions.md aberto no editor e selecionado no Explorer, ao lado de index.html. O arquivo tem o título Space Quiz e lista regras: um único index.html sem dependências nem etapa de build, todas as respostas acessíveis pelo teclado e respeito a prefers-color-scheme nos dois temas. Uma seção intitulada How I like code written pede funções pequenas, retornos antecipados, evitar soluções engenhosas em uma única linha e adicionar comentários apenas para o que realmente surpreende.](../../../_images/first-steps-vscode-instructions.svg)
 
 As instruções personalizadas do repositório ficam em `.github/copilot-instructions.md` e se aplicam a todas as solicitações de conversa.
 
@@ -35,6 +35,6 @@ O arquivo de instruções não serve apenas para registrar fatos sobre o projeto
 
 ## Resumo e próximos passos
 
-Seu espaço de trabalho agora tem instruções personalizadas baseadas em código real. Continue com a [Lição 3: Inspecionar o contexto e testar][next-lesson].
+Você gerou, revisou e personalizou instruções do projeto com base no código real. Continue com a [Lição 3: Inspecionar o contexto e testar][next-lesson].
 
 [next-lesson]: ../3-inspect-and-test/

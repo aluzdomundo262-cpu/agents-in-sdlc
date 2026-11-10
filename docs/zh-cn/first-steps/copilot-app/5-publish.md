@@ -33,6 +33,6 @@ Initialize this folder as a Git repository, create an initial commit, and create
 
 ## 总结与后续步骤
 
-项目现在已成为 GitHub 存储库。继续学习[第 6 课：使用议题与会话][next-lesson]。
+已将文件夹初始化为 Git 存储库，创建并推送公开的 GitHub 存储库，并在 Copilot app 中关联项目。继续学习[第 6 课：使用议题与会话][next-lesson]。
 
 [next-lesson]: ../6-issues-and-sessions/

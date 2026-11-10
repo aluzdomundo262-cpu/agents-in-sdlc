@@ -36,7 +36,7 @@ A Tailspin Toys é totalmente pré-renderizada. O código do navegador nunca dev
 O proxy é a única parte do código que tem permissão para acessar suas credenciais do Azure. Neste workshop, a Function e o site são executados localmente, com o servidor de desenvolvimento do Astro encaminhando as solicitações `/api` para a Function.
 
 > [!IMPORTANT]
-> Este proxy do workshop é apenas para desenvolvimento local. Ele não deve ser implantado como um endpoint público anônimo. Uma integração de produção precisa de um projeto de autenticação e controle de abuso específico para a aplicação, incluindo limites de taxa ou cotas adequados, restrições de CORS, monitoramento e controles de custo.
+> Este proxy do workshop é apenas para desenvolvimento local. Ele não deve ser implantado como um endpoint público anônimo. Uma integração de produção precisa de um projeto de autenticação e controle de abuso específico para a aplicação, incluindo limites de taxa ou cotas adequados, restrições de compartilhamento de recursos entre origens (CORS), monitoramento e controles de custo.
 
 3. Na mesma sessão do Copilot, insira:
 

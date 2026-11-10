@@ -1,6 +1,6 @@
 ---
 title: "第 0 课 - 先决条件与设置"
-description: "确认研讨会的先决条件，安装 GitHub Copilot app，并熟悉工作区。"
+description: "确认工作坊所需条件，安装 GitHub Copilot app，并熟悉工作区。"
 authors:
   - jamesmontemagno
 lastUpdated: 2026-10-05
@@ -10,7 +10,7 @@ lastUpdated: 2026-10-05
 
 本课将：
 
-- 确认研讨会的先决条件。
+- 确认工作坊所需条件。
 - 安装并登录 GitHub Copilot app。
 - 为会话选择模型。
 - 认识应用的主要工作区域。
@@ -72,7 +72,7 @@ How does the GitHub Copilot app use worktrees?
 
 ## 总结与后续步骤
 
-已经确认先决条件、安装应用、选择模型，并探索了主要工作区域。继续学习[第 1 课：创建 Space Quiz 工作区][next-lesson]。
+已确认所需条件、安装并登录应用、选择模型、熟悉主要工作区域，并尝试了简短聊天。继续学习[第 1 课：创建 Space Quiz 工作区][next-lesson]。
 
 [github-signup]: https://github.com/signup
 [copilot-plans]: https://github.com/features/copilot/plans

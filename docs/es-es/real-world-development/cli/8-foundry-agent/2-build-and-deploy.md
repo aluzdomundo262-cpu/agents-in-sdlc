@@ -1,6 +1,6 @@
 ---
 title: "Módulo 2 - Crea y despliega el agente"
-description: "Usa GitHub Copilot CLI y la habilidad Microsoft Foundry para generar la estructura del Backer Concierge, probarlo y desplegarlo."
+description: "Usa la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI) y la habilidad de Microsoft Foundry para generar la estructura del Backer Concierge, probarlo y desplegarlo."
 authors:
   - juliamuiruri4
 lastUpdated: 2026-09-16
@@ -22,15 +22,15 @@ Tailspin Toys necesita algo más que una respuesta aislada de un modelo. Quienes
 
 Este módulo parte del modelo funcional del módulo 1. Mantendrás el mismo proyecto y despliegue en lugar de crear otro conjunto de recursos de Azure.
 
-1. Vuelve al repositorio de Tailspin Toys en la rama `foundry-agent-cli` y a la sesión de Copilot CLI del módulo 1.
-2. Confirma que `db/catalog.json` está disponible y que conservas el proyecto de Foundry, el despliegue del modelo seleccionado y la sesión de Azure que usaste para probar el modelo. Si no has completado esa configuración, termina primero [Prepara el proyecto y el modelo][previous-lesson].
+1. Vuelve al repositorio de Tailspin Toys en la rama `foundry-agent-cli` y a la sesión de la interfaz de línea de comandos de GitHub Copilot (GitHub Copilot CLI) del módulo 1.
+2. Confirma que `db/catalog.json` está disponible y que conservas el proyecto de Foundry, el despliegue del modelo seleccionado y el inicio de sesión de Azure que usaste para probar el modelo. Si no has completado esa configuración, termina primero [Prepara el proyecto y el modelo][previous-lesson].
 
 > [!IMPORTANT]
 > Los agentes hospedados están en versión preliminar pública y crean recursos facturables de Azure. Las [instrucciones de limpieza][cleanup] se aplican si paras después de este módulo.
 
 ## Genera la estructura del agente Backer Concierge
 
-Ahora pedirás a la habilidad Microsoft Foundry que genere la estructura del agente hospedado dentro del repositorio existente de Tailspin Toys y, después, inspeccionarás su empaquetado y configuración antes de ejecutarlo.
+Ahora pedirás a la habilidad de Microsoft Foundry que genere la estructura del agente hospedado dentro del repositorio existente de Tailspin Toys y, después, inspeccionarás su empaquetado y configuración antes de ejecutarlo.
 
 1. Introduce el siguiente prompt en Copilot CLI:
 
@@ -55,7 +55,7 @@ Ahora pedirás a la habilidad Microsoft Foundry que genere la estructura del age
     - el servicio apunta a `agent/backer-concierge`.
     - el paquete del servicio desplegado incluye su propia copia generada del catálogo.
     - un script o paso de compilación actualiza esa copia desde `db/catalog.json`, en lugar de mantener dos catálogos editados a mano.
-    - el agente usa el despliegue del modelo seleccionado y la API Responses.
+    - el agente usa el despliegue del modelo seleccionado y Responses API.
     - las instrucciones rechazan explícitamente los datos que no aparecen en el catálogo.
     - no hay credenciales, tokens de acceso, archivos `.env` ni archivos de entorno de `.azure` preparados para incluirse en un commit.
 
@@ -88,7 +88,7 @@ Ahora pedirás a la habilidad Microsoft Foundry que genere la estructura del age
 
 ## Prueba el agente en local
 
-Ahora comprobarás, mediante la API Responses local del agente, que sus respuestas se fundamentan en el catálogo y que su comportamiento conversacional es correcto. El servicio del agente local ocupa el terminal mientras se ejecuta, así que mantendrás Copilot CLI abierto en el terminal actual e iniciarás el agente desde un segundo terminal.
+Ahora comprobarás, mediante Responses API en local, que las respuestas del agente se fundamentan en el catálogo y que su comportamiento conversacional es correcto. El servicio del agente local ocupa el terminal mientras se ejecuta, así que mantendrás Copilot CLI abierto en el terminal actual e iniciarás el agente desde un segundo terminal.
 
 1. Abre otro terminal pulsando <kbd>Ctrl</kbd>+<kbd>\`</kbd>.
 2. Desde la raíz del repositorio de Tailspin Toys, ejecuta:

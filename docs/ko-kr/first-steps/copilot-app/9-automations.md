@@ -25,7 +25,7 @@ lastUpdated: 2026-09-28
 3. 다음 프롬프트를 입력합니다.
 
    ```plaintext
-   Review the latest GitHub issues created and still open in the last week, and provide a summary table ranked by severity and priority.
+   지난주에 생성되어 현재도 열린 최신 GitHub 이슈를 검토하고, 심각도와 우선순위 순으로 정렬한 요약 표를 작성하십시오.
    ```
 
 4. 세션 모드를 **Autopilot**으로 설정합니다.

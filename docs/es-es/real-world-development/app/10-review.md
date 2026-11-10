@@ -1,6 +1,6 @@
 ---
 title: "Lección 10 - Repaso y pasos siguientes"
-description: "Repasa el flujo de la aplicación, los dos hitos de PR, los ejercicios de lienzo y las prácticas de calidad reutilizables; después, explora otros recursos."
+description: "Repasa el flujo de la aplicación, los dos hitos de solicitudes de incorporación de cambios, los ejercicios de lienzo y las prácticas de calidad reutilizables; después, explora otros recursos."
 authors:
   - geektrainer
 lastUpdated: 2026-09-29
@@ -12,8 +12,8 @@ Has utilizado la aplicación GitHub Copilot durante un flujo continuo de Tailspi
 - iniciar una sesión específica de valoraciones por estrellas, revisar el resultado en un lienzo de navegador y combinar manualmente tu primera solicitud de incorporación de cambios (PR).
 - partir de la incidencia de filtrado, definir el enfoque en modo **Plan**, desarrollarlo en modo **Autopilot** y revisarlo en modo **Interactive**.
 - orientar al agente con instrucciones personalizadas y después personalizar la habilidad `quality-checks` existente y utilizarla para ejecutar pruebas unitarias, lint y comprobaciones de tipos.
-- probar el trabajo con el servidor MCP de Playwright en un navegador real.
-- crear y seleccionar un agente personalizado QA para evaluar requisitos, cobertura, resultados de scripts de la habilidad y pruebas de observación del navegador.
+- añadir el servidor Model Context Protocol (MCP) de Playwright y utilizarlo para explorar el filtrado en un navegador real.
+- crear y seleccionar un agente personalizado de control de calidad (QA) para evaluar los requisitos, la cobertura, los resultados de la habilidad y las evidencias del navegador.
 - revisar el cambio completo de filtrado y autorizar **Agent Merge** para la segunda PR.
 - utilizar el lienzo Database Explorer existente y, después, crear y probar un lienzo de clasificación respaldado por el repositorio.
 
@@ -30,7 +30,7 @@ Desde la planificación del filtrado hasta la apertura de su PR, utilizaste la m
 
 Comprobaste el código de varias formas: pruebas automatizadas, tu propia inspección en el navegador y la exploración de Copilot en el navegador mediante MCP. La habilidad `quality-checks` ejecutó pruebas unitarias, lint y comprobaciones de tipos y presentó los resultados con el nuevo formato. QA reunió esos resultados junto con una revisión de los requisitos y la cobertura de pruebas antes de la PR.
 
-Las pruebas añadidas deben cubrir carencias reales; una ejecución QA que no necesita pruebas nuevas puede ser correcta. Las herramientas ausentes, las comprobaciones omitidas y los fallos son bloqueos visibles, no resultados satisfactorios. Revisa el código y las pruebas de verificación antes de autorizar la combinación y actualiza las afectadas después de los cambios.
+Las pruebas añadidas deben cubrir carencias reales; una ejecución de QA que no necesita pruebas nuevas puede ser correcta. Las herramientas ausentes, las comprobaciones omitidas y los fallos son bloqueos visibles, no resultados satisfactorios. Revisa el código y las pruebas de verificación antes de autorizar la combinación y actualiza las afectadas después de los cambios.
 
 ## Procedimientos recomendados
 

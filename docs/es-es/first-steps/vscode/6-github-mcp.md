@@ -1,12 +1,12 @@
 ---
 title: "Lección 6 - Dar a Copilot herramientas para trabajar con GitHub"
-description: "Habilita y revisa el servidor MCP de GitHub en VS Code antes de pedir a Copilot que trabaje con incidencias y solicitudes de incorporación de cambios."
+description: "Habilita y revisa el servidor de Model Context Protocol (MCP) de GitHub en Visual Studio Code (VS Code) antes de pedir a Copilot que trabaje con incidencias y solicitudes de incorporación de cambios."
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
 ---
 
-Habilita el servidor MCP de GitHub *antes* de pedir a Copilot que cree incidencias o trabaje con solicitudes de incorporación de cambios. Con estas herramientas, Copilot puede leer y escribir datos de GitHub directamente desde el chat.
+Habilita el servidor de Model Context Protocol (MCP) de GitHub *antes* de pedir a Copilot que cree incidencias o trabaje con solicitudes de incorporación de cambios. Con estas herramientas, Copilot puede leer y escribir datos de GitHub directamente desde el chat.
 
 En esta lección:
 
@@ -17,7 +17,7 @@ En esta lección:
 ## Habilita GitHub MCP
 
 1. Abre **Settings** de VS Code y habilita el servidor integrado **GitHub MCP**, si tu versión lo incluye.
-2. En caso contrario, instala un servidor MCP de GitHub de confianza mediante el [flujo de configuración de servidores MCP][mcp-servers].
+2. Si no está disponible, instala un servidor MCP de GitHub de confianza mediante el [flujo de configuración de servidores MCP][mcp-servers].
 3. Revisa las herramientas y los permisos que solicita el servidor antes de aprobarlo.
 4. Confirma que las herramientas de GitHub aparecen en el selector de herramientas de Copilot Chat.
 

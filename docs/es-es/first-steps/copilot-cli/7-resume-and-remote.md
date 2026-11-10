@@ -23,13 +23,13 @@ En esta lección:
 
 ## Opcional: continúa una sesión de forma remota
 
-Ejecuta `/remote` para mantener *esa misma sesión* en ejecución local y, al mismo tiempo, hacerla accesible desde la web y la aplicación móvil GitHub Copilot. El equipo debe permanecer encendido. Abre en el explorador el enlace que devuelve o accede a la sesión desde la aplicación móvil GitHub Copilot.
+Ejecuta `/remote` para mantener *esa misma sesión* en ejecución local y, al mismo tiempo, hacerla accesible desde la web y la aplicación móvil GitHub Copilot. El equipo debe permanecer encendido. Abre en el navegador el enlace que devuelve o accede a la sesión desde la aplicación móvil GitHub Copilot.
 
 > [!NOTE]
 > `/remote` no es delegación y no traslada la ejecución a la nube. No es necesario para este taller, así que pruébalo cuando te resulte natural el ciclo de trabajo local.
 
 ## Resumen y pasos siguientes
 
-Puedes pausar y reanudar sesiones y seguir una sesión local desde otro dispositivo. Continúa con la [lección 8: Crear, revisar y combinar desde la CLI][next-lesson].
+Puedes pausar y reanudar sesiones y seguir una sesión local desde otro dispositivo. Continúa con la [lección 8: Crear, revisar y fusionar desde la CLI][next-lesson].
 
 [next-lesson]: ../8-pull-request/

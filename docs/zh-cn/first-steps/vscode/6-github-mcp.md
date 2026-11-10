@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-让 Copilot 创建议题或处理拉取请求*之前*，先启用 GitHub MCP 服务器。有了这些工具，Copilot 就能直接从聊天中读取和写入 GitHub 数据。
+让 Copilot 创建议题或处理拉取请求*之前*，先启用 GitHub MCP 服务器。借助这些工具，Copilot 可以直接在聊天中读取和写入 GitHub 数据。
 
 本课将：
 
@@ -23,7 +23,7 @@ lastUpdated: 2026-09-28
 
 ## 总结与后续步骤
 
-Copilot 现在具备了可操作 GitHub 的工具。继续学习[第 7 课：规划并实现议题][next-lesson]。
+现在，Copilot 已能使用 GitHub 工具。继续学习[第 7 课：规划并实现议题][next-lesson]。
 
 [mcp-servers]: https://code.visualstudio.com/docs/copilot/chat/mcp-servers
 [next-lesson]: ../7-issues-and-sessions/

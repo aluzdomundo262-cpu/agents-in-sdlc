@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-已经在本地完成整个流程，现在知道什么样的结果才是合格的。此时正适合让任务独立运行。Copilot Chat 可以将运行环境从本机切换到 GitHub。
+已经在本地完成整个流程，现在知道什么样的结果才是合格的。此时正适合让任务脱离本机独立运行。Copilot Chat 可以将运行环境从本机切换到 GitHub。
 
 本课将：
 
@@ -21,7 +21,7 @@ lastUpdated: 2026-10-05
 
 ![VS Code 中 Copilot Chat 的示意图，Harness 选择器已打开。Copilot 下选择了 Cloud 而不是 Local，还列出 Claude、Codex 等其他运行环境。上方添加三个新配色主题的请求显示 Working in the cloud，并提供在 GitHub 上查看会话进度的链接。](../../../_images/first-steps-vscode-cloud-harness.svg)
 
-**Harness** 选择器列出在 **Local** 或 **Cloud** 运行的 Copilot，以及其他运行环境。切换到 **Cloud** 后，下一个请求将在 GitHub 上运行，而不是在本机运行。
+**Harness** 选择器可将 Copilot 设置为在 **Local** 或 **Cloud** 运行，也会列出其他运行环境。切换到 **Cloud** 后，下一个请求将在 GitHub 上运行，而不是在本机运行。
 
 1. 在 Copilot Chat 中打开 **Harness** 选择器，将 Copilot 从 **Local** 切换到 **Cloud**。
 2. 启动新会话，提供一个可独立完成、验收标准明确的功能：
@@ -36,7 +36,7 @@ lastUpdated: 2026-10-05
 > [!TIP]
 > **委派能够描述清楚的任务**
 >
-> 云会话在任务说明明确时效果更好。如果还写不出验收标准，任务就还没准备好离开本机。
+> 云会话适合任务说明明确的情况。如果还写不出验收标准，任务就还不适合交给云端处理。
 
 ## 总结与后续步骤
 

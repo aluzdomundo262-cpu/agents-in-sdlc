@@ -10,13 +10,13 @@ lastUpdated: 2026-09-17
 
 このレッスンでは、次の内容を学習します。
 
-- カスタムエージェントが指示、スキル、MCP ツールと連携する仕組みを確認する。
+- カスタムエージェントが指示、スキル、Model Context Protocol (MCP) ツールと連携する仕組みを確認する。
 - 再利用可能な品質保証 (QA) プロファイルを作成して確認する。
 - QA エージェントを選択し、フィルター機能の Issue に照らして結果をレビューする。
 
 ## シナリオ
 
-Tailspin Toys は、pull request (PR) を作成する前に、要件、コード品質、自動チェック、テストカバレッジ、ブラウザーでの動作を一貫してレビューしたいと考えています。カスタムエージェントは、その QA プロセスを調整し、再利用可能なレポートを提供できます。
+Tailspin Toys は、プルリクエスト (PR) を作成する前に、要件、コード品質、自動チェック、テストカバレッジ、ブラウザーでの動作を一貫してレビューしたいと考えています。カスタムエージェントは、その QA プロセスを調整し、再利用可能なレポートを提供できます。
 
 ## カスタムエージェントとは
 
@@ -44,7 +44,7 @@ Tailspin Toys は、pull request (PR) を作成する前に、要件、コード
 1. **Changes** を開き、`.github/agents/qa.agent.md` を選択します。
 2. フロントマターを読みます。`description` は必須です。`name` は任意ですが、含めるとエージェントに明確な表示名を付けられます。
 3. プロファイルの指示を読み、QA が要件から開始し、リポジトリの指示に従い、`quality-checks` スキルを実行し、Playwright MCP を使用することを確認します。
-4. QA が裏付けとなる証拠を報告し、実装コードを変更する前に確認し、変更をコミットしたり pull request を開いたりしないことを確認します。
+4. QA が裏付けとなる証拠を報告し、実装コードを変更する前に確認し、変更をコミットしたりプルリクエストを開いたりしないことを確認します。
 5. 生成されたプロファイルにこれらの責任や境界が欠けている場合は、続行する前に通常の Copilot エージェントに修正を依頼します。
 
 ## Issue に対して QA を実行する
@@ -74,7 +74,7 @@ Tailspin Toys は、pull request (PR) を作成する前に、要件、コード
 
 ## リソース
 
-- [カスタムエージェントの選択を含む GitHub Copilot App のカスタマイズ][customize-app]
+- [カスタムエージェントの選択を含む GitHub Copilot app のカスタマイズ][customize-app]
 
 [next-lesson]: ../8-create-pull-request/
 [customize-app]: https://docs.github.com/copilot/how-tos/github-copilot-app/customize-github-copilot-app

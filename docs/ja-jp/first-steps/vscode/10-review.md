@@ -1,6 +1,6 @@
 ---
 title: "レッスン 10 - 振り返りと次のステップ"
-description: "VS Code のワークフローを振り返り、学習を続けるためのリソースを確認します。"
+description: "Visual Studio Code (VS Code) のワークフローを振り返り、学習を続けるためのリソースを確認します。"
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
@@ -18,7 +18,7 @@ lastUpdated: 2026-09-28
 - チャットのコンテキストを確認し、Git に何かを記録する前にスモークテストを実行しました。
 - **Source Control** と Copilot が下書きしたコミットメッセージを使って公開しました。
 - 編集前に、Plan モードで機能の計画を立てました。
-- GitHub MCP を有効にし、チャットから Issue を作成しました。
+- GitHub の Model Context Protocol (MCP) を有効にし、チャットから Issue を作成しました。
 - VS Code からプルリクエストを作成し、レビューしてマージしました。
 - クラウドセッションに機能の作成を委任しました。
 

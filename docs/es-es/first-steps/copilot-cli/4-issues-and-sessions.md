@@ -17,10 +17,10 @@ En esta lección:
 
 ## Crea un backlog
 
-Envía el siguiente prompt:
+Envía la siguiente solicitud:
 
 ```plaintext
-Review the space quiz and create three focused GitHub issues with clear titles, user-focused descriptions, and acceptance criteria. Do not implement them yet.
+Revisa Space Quiz y crea tres incidencias de GitHub bien delimitadas, con títulos claros, descripciones centradas en los usuarios y criterios de aceptación. No las implementes todavía.
 ```
 
 ## Trabaja en la primera incidencia en esta sesión
@@ -29,7 +29,7 @@ Review the space quiz and create three focused GitHub issues with clear titles, 
 2. Resalta la primera incidencia y pulsa <kbd>c</kbd> para añadirla al chat como contexto. Para leer primero la incidencia completa, pulsa <kbd>Enter</kbd> en su lugar.
 3. Pide al agente que implemente la incidencia.
 
-![Ilustración del panel lateral de Copilot CLI en una terminal. La pestaña Issues está seleccionada entre las pestañas Current, Sessions, Issues, Pull requests y Gists. Un filtro de búsqueda de incidencias abiertas en el repositorio space-quiz muestra una incidencia, Añadir una pantalla de puntuación al final del cuestionario. Las indicaciones explican que la tecla Left arrow abre el panel y Tab permite moverse entre pestañas; la fila inferior enumera las teclas: barra para buscar, Enter para ver detalles, o para abrir, w para el árbol de trabajo, c para el chat y a para todo.](../../../_images/first-steps-cli-side-panel.svg)
+![Ilustración del panel lateral de Copilot CLI en una terminal. La pestaña Issues está seleccionada entre Current, Sessions, Issues, Pull requests y Gists. Un filtro de búsqueda de incidencias abiertas en el repositorio space-quiz muestra la incidencia «Add a score screen at the end of the quiz». Las indicaciones explican que Left arrow abre el panel y Tab permite moverse entre pestañas; la fila inferior enumera las teclas: / para buscar, Enter para ver los detalles, o para abrir, w para el árbol de trabajo, c para el chat y a para mostrar todas las incidencias.](../../../_images/first-steps-cli-side-panel.svg)
 
 El panel lateral muestra todas las pestañas en la parte superior, y las indicaciones de la parte inferior son las teclas que actúan sobre el elemento resaltado.
 
@@ -51,7 +51,7 @@ El proyecto está publicado, así que hay una versión cuyo funcionamiento has c
 
 ![Ilustración de la salida de Copilot CLI tras ejecutar /worktree. Informa de que ha creado el árbol de trabajo ../space-quiz-13 en la rama issue-13-review-screen y de que esta sesión trabaja ahora allí mientras main permanece sin cambios.](../../../_images/first-steps-cli-worktree.svg)
 
-`/worktree` traslada la sesión a su propia copia de trabajo en su propia rama, de modo que la primera sesión puede seguir trabajando sin interrupciones.
+`/worktree` traslada la sesión a su propio árbol de trabajo y a su propia rama, de modo que la primera sesión puede seguir trabajando sin interrupciones.
 
 ## Resumen y pasos siguientes
 

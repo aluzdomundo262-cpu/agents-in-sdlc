@@ -29,7 +29,7 @@ Você precisa de:
 
 ## Configurar o VS Code
 
-1. Instale o [VS Code][vscode] e faça login no GitHub. O Copilot e o Copilot Chat são integrados, então abra a visualização **Chat** pela barra de título e confirme que ela responde.
+1. Instale o [VS Code][vscode] e faça login no GitHub. O Copilot e o Copilot Chat são integrados, então abra a visualização **Chat** pela barra de título e confirme que o Copilot Chat responde.
 2. Abra a visualização **Extensions** e instale a extensão oficial [GitHub Pull Requests and Issues][pr-extension] para que issues e pull requests apareçam na barra lateral.
 3. Crie uma pasta vazia chamada `space-quiz`, selecione **File** > **Open Folder** e abra-a.
 4. Escolha um modelo com o seletor de modelos na visualização **Chat**, usando a ordem de preferência da próxima seção.
@@ -46,7 +46,7 @@ A disponibilidade de modelos depende do plano, da política da organização e d
 
 ## Resumo e próximos passos
 
-O VS Code está pronto com o Copilot Chat, a extensão do GitHub e uma pasta `space-quiz` vazia. Continue com a [Lição 1: Criar no espaço de trabalho][next-lesson].
+Você verificou os pré-requisitos, confirmou que o Copilot Chat responde, instalou a extensão GitHub Pull Requests and Issues, abriu uma pasta `space-quiz` vazia e escolheu um modelo. Continue com a [Lição 1: Criar no espaço de trabalho][next-lesson].
 
 [github-signup]: https://github.com/signup
 [copilot-plans]: https://github.com/features/copilot/plans

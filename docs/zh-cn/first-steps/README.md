@@ -6,14 +6,14 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-入门体验研讨会提供引导式介绍，无需现有应用程序或详细的开发场景即可探索 GitHub Copilot。每个研讨会都从小项目开始，在实际使用中介绍产品，并带着项目完成整个工作流。
+入门工作坊通过引导式实践帮助开发者探索 GitHub Copilot，无需准备现有应用或详细的开发场景。每个工作坊都从简单任务开始，在实践中介绍产品，并逐步完成整个工作流。
 
-所有研讨会都从空文件夹构建同一个 Space Quiz，可以选择想学习的工具，也可以完成多个研讨会，对比不同工具的工作方式。
+每个工作坊都会从空文件夹开始，构建同一个 Space Quiz。可以选择想体验的工具，也可以完成多个工作坊，对比它们的工作方式。
 
 > [!NOTE]
-> 这些研讨会由 [James Montemagno][james] 创建，改编自 [First Steps with GitHub Copilot][source-lab]，原始内容采用 [MIT 许可证][source-license]。
+> 这些工作坊由 [James Montemagno][james] 创建，改编自 [First Steps with GitHub Copilot][source-lab]，原始内容采用 [MIT 许可证][source-license]。
 
-## 研讨会
+## 工作坊
 
 ### [GitHub Copilot app 导览][copilot-app]
 

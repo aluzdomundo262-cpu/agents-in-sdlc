@@ -44,7 +44,7 @@ lastUpdated: 2026-10-05
 
 ## 总结与后续步骤
 
-已经完成从议题到经过审查并合并的拉取请求的开发流程。继续学习[第 9 课：自动化议题分类][next-lesson]。
+已从议题创建拉取请求、请求 Copilot 代码审查、处理可执行反馈，并使用 Agent Merge 完成合并。继续学习[第 9 课：自动化议题分类][next-lesson]。
 
 [code-review]: https://docs.github.com/copilot/concepts/agents/code-review
 [next-lesson]: ../9-automations/

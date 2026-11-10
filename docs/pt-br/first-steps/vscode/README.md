@@ -24,7 +24,7 @@ O workshop leva aproximadamente de 60 a 90 minutos. O projeto usa um único arqu
 | [3. Inspecionar o contexto e testar][lesson-3] | Teste | Inspecionar o contexto da conversa e executar um teste básico de funcionamento antes de qualquer gravação no Git |
 | [4. Publicar o projeto][lesson-4] | Publicação | Inicializar, fazer commit e publicar com Source Control |
 | [5. Planejar antes de editar][lesson-5] | Planejamento | Usar o modo Plan para definir uma abordagem para o próximo recurso |
-| [6. Dar ao Copilot ferramentas integradas ao GitHub][lesson-6] | Ferramentas | Habilitar e revisar o servidor MCP do GitHub |
+| [6. Dar ao Copilot ferramentas integradas ao GitHub][lesson-6] | Ferramentas | Habilitar e revisar o servidor Model Context Protocol (MCP) do GitHub |
 | [7. Planejar e implementar issues][lesson-7] | Implementação | Criar issues com as ferramentas do GitHub e implementar uma delas em uma nova sessão |
 | [8. Revisar e mesclar][lesson-8] | Revisão | Criar um pull request em Source Control, solicitar uma revisão e mesclar |
 | [9. Passar o trabalho para uma sessão na nuvem][lesson-9] | Delegação | Alterar o ambiente de execução para Cloud e delegar um novo recurso |

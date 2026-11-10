@@ -6,11 +6,11 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-学びたい内容と深さに合わせてワークショップを選びます。**はじめの一歩**では GitHub Copilot をガイドに沿って体験し、**実践的な開発**では完成したアプリケーションとチームのバックログを使って、本番環境を意識したワークフローを学びます。
+学びたいことと、どこまで深く取り組みたいかに応じてワークショップを選んでください。**はじめの一歩**では GitHub Copilot をガイドに沿って体験できます。**実践的な開発**では、完成したアプリケーションとチームのバックログを使って、本番環境を意識したワークフローを実践します。
 
 ## はじめの一歩
 
-既存のコードベースを用意せずに、GitHub Copilot 製品の主要な機能を学べる、目的を絞ったガイド形式のワークショップです。
+既存のコードベースがなくても GitHub Copilot 製品の主要な機能を学べる、内容を絞ったガイド形式のワークショップから始めましょう。
 
 ### [GitHub Copilot app ツアー][first-steps-app]
 
@@ -18,11 +18,11 @@ lastUpdated: 2026-09-28
 
 ### [GitHub Copilot CLI のはじめの一歩][first-steps-cli]
 
-同じ Space Quiz をターミナルから作成し、差分のレビュー、worktree での並列セッション、編集前の計画、シェルを離れずに行うプル リクエストの作成、マージ、委任まで進めます。
+同じ Space Quiz をターミナルから作成し、差分をレビューし、worktree で並列セッションを実行し、編集前に計画を立てます。シェルを離れずにプルリクエストを作成してマージし、作業を委任します。
 
 ### [Visual Studio Code のはじめの一歩][first-steps-vscode]
 
-VS Code で Space Quiz を作成し、統合ブラウザーでのテスト、ソース管理での公開、GitHub ツールを使った Issue とプル リクエストの操作、クラウド セッションへの委任まで進めます。
+VS Code で Space Quiz を作成し、統合ブラウザーでのテスト、ソース管理での公開、GitHub ツールを使った Issue とプルリクエストの操作、クラウドセッションへの委任まで進めます。
 
 ## 実践的な開発
 
@@ -40,4 +40,4 @@ GitHub Copilot CLI、GitHub Copilot app、GitHub Copilot cloud agent、Visual St
 [first-steps-app]: first-steps/copilot-app/
 [first-steps-cli]: first-steps/copilot-cli/
 [first-steps-vscode]: first-steps/vscode/
-[real-world-development]: ../real-world-development/
+[real-world-development]: real-world-development/

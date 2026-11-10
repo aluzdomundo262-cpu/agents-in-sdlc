@@ -1,15 +1,15 @@
 ---
 title: "Primeros pasos con Visual Studio Code"
-description: "Realiza un recorrido guiado por GitHub Copilot en Visual Studio Code creando, probando y entregando un Space Quiz."
+description: "Realiza un recorrido guiado por GitHub Copilot en Visual Studio Code (VS Code) creando, probando y publicando un Space Quiz."
 slug: es-es/first-steps/vscode
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28
 ---
 
-Realiza un recorrido práctico por GitHub Copilot en Visual Studio Code, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y aprenderás el ciclo de trabajo del editor: crear en un área de trabajo, inspeccionar el contexto, probar antes de que Git escriba nada, planificar antes de editar y dejar que las herramientas de GitHub gestionen incidencias y solicitudes de incorporación de cambios sin salir de VS Code.
+Realiza un recorrido práctico por GitHub Copilot en VS Code, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y aprenderás el ciclo de trabajo del editor: crear en un área de trabajo, inspeccionar el contexto, probar antes de que Git escriba nada, planificar antes de editar y dejar que las herramientas de GitHub gestionen incidencias y solicitudes de incorporación de cambios sin salir de VS Code.
 
-El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un único archivo HTML sin dependencias de ejecución, así que puedes centrarte en aprender a usar Copilot en el editor.
+El taller dura entre 60 y 90 minutos, aproximadamente. El proyecto utiliza un único archivo de lenguaje de marcado de hipertexto (HTML) sin dependencias en tiempo de ejecución, así que puedes centrarte en aprender a usar Copilot en el editor.
 
 > [!NOTE]
 > Este taller fue creado por [James Montemagno][james] y adaptado de [Primeros pasos con GitHub Copilot][source-lab]. El contenido original está disponible bajo la [licencia MIT][source-license].
@@ -19,14 +19,14 @@ El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un ún
 | Lección | Tema | Qué harás |
 | ------ | ----- | ---------------- |
 | [0. Requisitos previos y configuración][lesson-0] | Configuración | Comprueba los requisitos previos, añade la extensión de GitHub, abre una carpeta y elige un modelo |
-| [1. Crear en el área de trabajo][lesson-1] | Creación | Crea el cuestionario, previsualízalo en el explorador integrado y perfecciona un elemento que selecciones |
-| [2. Recoger las instrucciones del proyecto][lesson-2] | Instrucciones | Genera y adapta `.github/copilot-instructions.md` con `/init` |
+| [1. Crear en el área de trabajo][lesson-1] | Creación | Crea el cuestionario, previsualízalo en el navegador integrado y perfecciona un elemento que elijas |
+| [2. Generar las instrucciones del proyecto][lesson-2] | Instrucciones | Genera y adapta `.github/copilot-instructions.md` con `/init` |
 | [3. Inspeccionar el contexto y probar][lesson-3] | Pruebas | Inspecciona el contexto del chat y ejecuta una prueba de humo antes de que Git escriba nada |
 | [4. Publicar el proyecto][lesson-4] | Publicación | Inicializa, crea un commit y publica con Source Control |
 | [5. Planificar antes de editar][lesson-5] | Planificación | Utiliza el modo Plan para acordar un enfoque para la siguiente funcionalidad |
-| [6. Dar a Copilot herramientas para trabajar con GitHub][lesson-6] | Herramientas | Habilita y revisa el servidor MCP de GitHub |
+| [6. Dar a Copilot herramientas para trabajar con GitHub][lesson-6] | Herramientas | Habilita y revisa el servidor de Model Context Protocol (MCP) de GitHub |
 | [7. Planificar e implementar incidencias][lesson-7] | Implementación | Crea incidencias con las herramientas de GitHub e implementa una en una sesión nueva |
-| [8. Revisar y combinar][lesson-8] | Revisión | Crea una solicitud de incorporación de cambios desde Source Control, solicita una revisión y combínala |
+| [8. Revisar y fusionar][lesson-8] | Revisión | Crea una solicitud de incorporación de cambios desde Source Control, solicita una revisión y fusiónala |
 | [9. Delegar a una sesión en la nube][lesson-9] | Delegación | Cambia el entorno a Cloud y delega una nueva funcionalidad |
 | [10. Repaso y pasos siguientes][lesson-10] | Repaso | Repasa el flujo de trabajo y sigue aprendiendo |
 

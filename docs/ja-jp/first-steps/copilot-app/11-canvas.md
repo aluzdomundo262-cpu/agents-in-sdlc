@@ -43,7 +43,7 @@ Canvas は、エージェントが Issue に基づいて作業する状態を保
 
 ## まとめと次のステップ
 
-共有された視覚的な作業領域を使って、エージェントセッションを開始しました。[レッスン 12: GitHub Pages でサイトを公開する][next-lesson]に進みます。
+Canvas 拡張機能をインストールして Space Quiz リポジトリに接続し、Issue を作業中の列に移して、そこから作成されたセッションを確認しました。[レッスン 12: GitHub Pages でサイトを公開する][next-lesson]に進みます。
 
 [canvas-gallery]: https://awesome-copilot.github.com/extensions/
 [kanban-extension]: https://awesome-copilot.github.com/extension/accessibility-kanban/

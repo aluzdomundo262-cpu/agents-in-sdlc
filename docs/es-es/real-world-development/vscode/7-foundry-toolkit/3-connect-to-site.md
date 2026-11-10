@@ -7,10 +7,10 @@ lastUpdated: 2026-09-16
 next: false
 ---
 
-| [← Módulo anterior: Crear e implementar un agente][previous-lesson] |
+| [← Módulo anterior: Crear y desplegar un agente][previous-lesson] |
 |:--|
 
-Este módulo conecta a Tailspin Toys el agente hospedado de [Crear e implementar un agente][previous-lesson]. Copilot Chat en VS Code crea una integración local, no un punto de conexión público de producción.
+Este módulo conecta a Tailspin Toys el agente hospedado de [Crear y desplegar un agente][previous-lesson]. Copilot Chat en VS Code crea una integración local, no un punto de conexión público de producción.
 
 ## Objetivos
 
@@ -34,7 +34,7 @@ El agente hospedado existente es el destino de la integración. Tailspin Toys es
 Un proxy local de Azure Functions en `/api` almacena los datos de conexión y reenvía las solicitudes mientras el sitio se ejecuta localmente. Copilot puede utilizar **Azure skills** para prepararlo y validarlo.
 
 > [!IMPORTANT]
-> Este proxy del taller es solo para desarrollo local. No lo implementes como un punto de conexión público anónimo. La producción requiere autenticación y controles contra el abuso específicos de la aplicación, incluidos límites de frecuencia o cuotas, restricciones de CORS, supervisión y controles de costes.
+> Este proxy del taller es solo para desarrollo local. No lo despliegues como un punto de conexión público anónimo. La producción requiere autenticación y controles contra el abuso específicos de la aplicación, incluidos límites de frecuencia o cuotas, restricciones de uso compartido de recursos entre orígenes (CORS), supervisión y controles de costes.
 
 1. Pide a Copilot que cree el proxy:
 
@@ -49,7 +49,7 @@ Un proxy local de Azure Functions en `/api` almacena los datos de conexión y re
    Start the local Functions host and test /api/concierge by asking "Which games are under $30?" Show me the sanitized response and confirm that no credentials or internal conversation identifiers are returned.
    ```
 
-4. Comprueba la respuesta del terminal. Debes obtener JSON válido con una propiedad `response` que contenga la respuesta, sin información de precios inventada, credenciales ni identificadores de conversación internos. Si alguna comprobación falla, pide a Copilot que la corrija y repite la prueba del backend.
+4. Comprueba la respuesta del terminal. Debes obtener una respuesta en notación de objetos de JavaScript (JSON) válida, con una propiedad `response` que contenga la respuesta y sin información de precios inventada, credenciales ni identificadores de conversación internos. Si alguna comprobación falla, pide a Copilot que la corrija y repite la prueba del backend.
 5. Selecciona **Keep** para conservar los cambios y utiliza **/clear** para empezar de cero con el widget en el mismo repositorio y la misma rama. Conserva la configuración del proxy local y la conexión con el agente hospedado existente.
 
 ## Crear y probar el widget
@@ -74,7 +74,7 @@ La interfaz ya tiene un backend verificado. Las pruebas de extremo a extremo com
 
 ## Punto de control al finalizar
 
-Has creado un proxy local que protege las credenciales, has conectado un widget de chat accesible y has verificado el flujo completo de conversación con el Backer Concierge hospedado. El punto de control de este módulo es una integración del sitio probada localmente que respeta los límites del catálogo y mantiene las credenciales y los identificadores internos de Foundry fuera del navegador. No es una implementación de producción del proxy ni del sitio.
+Has creado un proxy local que protege las credenciales, has conectado un widget de chat accesible y has verificado el flujo completo de conversación con el Backer Concierge hospedado. El punto de control de este módulo es una integración del sitio probada localmente que respeta los límites del catálogo y mantiene las credenciales y los identificadores internos de Foundry fuera del navegador. No es un despliegue de producción del proxy ni del sitio.
 
 Cuando termines de experimentar, detén los servicios locales y [elimina los recursos de Azure][cleanup] para evitar costes continuados. Después, vuelve a la [introducción a VS Code][vscode-overview] del taller principal.
 

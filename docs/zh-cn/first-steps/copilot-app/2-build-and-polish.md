@@ -57,6 +57,6 @@ Create a space exploration quiz with 10 questions, a progress bar, score counter
 
 ## 总结与后续步骤
 
-已经构建、检查并优化了 Space Quiz。继续学习[第 3 课：检查会话并测试测验][next-lesson]。
+已在 `index.html` 中创建无依赖项的测验，在集成浏览器中测试并检查生成的代码，同时在保持无障碍支持的前提下优化了选中的元素。继续学习[第 3 课：检查会话并测试测验][next-lesson]。
 
 [next-lesson]: ../3-inspect-and-test/

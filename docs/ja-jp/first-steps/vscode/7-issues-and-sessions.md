@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-09-28
 ---
 
-GitHub MCP を有効にすると、Copilot はチャットから直接 Issue を作成し、読むことができます。
+GitHub の Model Context Protocol (MCP) を有効にすると、Copilot はチャットから直接 Issue を作成し、読むことができます。
 
 このレッスンでは、次の内容を学習します。
 
@@ -16,11 +16,13 @@ GitHub MCP を有効にすると、Copilot はチャットから直接 Issue を
 
 ## Issue を作成する
 
-次のプロンプトを送信します。
+GitHub ツールで Issue を作成するには、次のプロンプトを送信します。
 
-```plaintext
-Review the space quiz and suggest three focused feature ideas. Use the GitHub tools to create a separate issue for each with a clear title, user-focused description, and acceptance criteria. Do not implement them yet.
-```
+1. Copilot Chat に次のプロンプトを送信します。
+
+   ```plaintext
+   Review the space quiz and suggest three focused feature ideas. Use the GitHub tools to create a separate issue for each with a clear title, user-focused description, and acceptance criteria. Do not implement them yet.
+   ```
 
 ## 1 つの Issue を実装する
 

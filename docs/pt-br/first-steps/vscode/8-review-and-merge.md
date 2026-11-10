@@ -18,7 +18,7 @@ Nesta lição, você vai:
 ## Inspecionar, revisar e mesclar
 
 > [!IMPORTANT]
-> O Copilot Free não inclui a revisão de código do Copilot para pull requests. Use o Copilot Student ou um plano pago do Copilot que inclua revisão de código. Uma organização também pode habilitar a revisão de código paga no GitHub.com para membros sem uma licença do Copilot, mas isso não concede acesso à revisão de código nos IDEs. Consulte a [disponibilidade da revisão de código do Copilot][code-review].
+> O Copilot Free não inclui a revisão de código do Copilot para pull requests. Use o Copilot Student ou um plano pago do Copilot que inclua revisão de código. Uma organização também pode habilitar a revisão de código paga no GitHub.com para membros sem uma licença do Copilot, mas isso não concede acesso à revisão de código no ambiente de desenvolvimento integrado (IDE). Consulte a [disponibilidade da revisão de código do Copilot][code-review].
 >
 > Se não tiver acesso, pule a solicitação de revisão do Copilot no passo 4. Revise o diff por conta própria ou peça a um colega de equipe para revisá-lo e continue com os passos restantes, tratando o feedback de revisores humanos e testando novamente antes de mesclar.
 
@@ -26,7 +26,7 @@ Nesta lição, você vai:
 2. Faça commit do novo trabalho, usando o botão de **brilho** para escrever a mensagem novamente.
 3. Selecione o botão **Create Pull Request** que aparece em **Source Control**. O Copilot redige o título e a descrição a partir dos commits, para que você obtenha um pull request melhor do que se pedisse um do zero.
 4. Solicite uma **Copilot code review** durante a criação do pull request, pela visualização **GitHub** no VS Code ou no GitHub.
-5. Peça ao Copilot, com o MCP do GitHub, para inspecionar o pull request, resolver conflitos de mesclagem, tratar comentários de revisão e investigar verificações de CI com falha.
+5. Peça ao Copilot, com o Model Context Protocol (MCP) do GitHub, para inspecionar o pull request, resolver conflitos de mesclagem, tratar comentários de revisão e investigar verificações de integração contínua (CI) com falha.
 6. Teste novamente no navegador integrado, revise cada alteração proposta e atualize a branch.
 7. Quando as verificações e a revisão estiverem concluídas, peça ao agente para mesclar ou mescle pela integração do GitHub.
 

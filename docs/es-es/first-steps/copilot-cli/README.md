@@ -7,9 +7,9 @@ authors:
 lastUpdated: 2026-10-05
 ---
 
-Realiza un recorrido práctico por GitHub Copilot CLI, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y aprenderás el ciclo de trabajo centrado en la terminal: crear y revisar las diferencias antes de que Git escriba nada, ejecutar sesiones en paralelo, planificar antes de editar y, después, crear y combinar la solicitud de incorporación de cambios sin salir del shell.
+Realiza un recorrido práctico por GitHub Copilot CLI, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y aprenderás el ciclo de trabajo centrado en la terminal: crear y revisar las diferencias antes de que Git escriba nada, ejecutar sesiones en paralelo, planificar antes de editar y, después, crear y fusionar la solicitud de incorporación de cambios sin salir de la terminal.
 
-El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un único archivo HTML sin dependencias de ejecución, así que puedes centrarte en aprender a usar la CLI y sus flujos de trabajo con agentes.
+El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un único archivo en lenguaje de marcado de hipertexto (HTML), sin dependencias de ejecución, así que puedes centrarte en aprender a usar la CLI y sus flujos de trabajo con agentes.
 
 > [!NOTE]
 > Este taller fue creado por [James Montemagno][james] y adaptado de [Primeros pasos con GitHub Copilot][source-lab]. El contenido original está disponible bajo la [licencia MIT][source-license].
@@ -20,13 +20,13 @@ El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un ún
 | ------ | ----- | ---------------- |
 | [0. Requisitos previos y configuración][lesson-0] | Configuración | Comprueba los requisitos previos, instala Copilot CLI, inicia sesión y elige un modelo |
 | [1. Crear el cuestionario][lesson-1] | Creación | Crea el cuestionario desde la terminal y realiza un cambio concreto |
-| [2. Recoger las instrucciones del proyecto][lesson-2] | Instrucciones | Genera y adapta las instrucciones del agente con `/init` |
-| [3. Publicar el proyecto][lesson-3] | Publicación | Inicializa, crea un commit y publica mediante un prompt o manualmente |
+| [2. Crear instrucciones para el proyecto][lesson-2] | Instrucciones | Genera y adapta las instrucciones del agente con `/init` |
+| [3. Publicar el proyecto][lesson-3] | Publicación | Inicializa, crea un commit y publica mediante una solicitud o manualmente |
 | [4. Trabajar en incidencias en paralelo][lesson-4] | Implementación | Crea un backlog, añade una incidencia al chat, revisa con `/diff` e inicia una segunda sesión en un árbol de trabajo |
 | [5. Planificar antes de editar][lesson-5] | Planificación | Utiliza `/plan` para acordar un enfoque para la segunda incidencia |
 | [6. Saber qué puede ver el agente][lesson-6] | Contexto | Inspecciona y restablece el contexto con `/context` y `/clear` |
 | [7. Reanudar y acceder de forma remota][lesson-7] | Reanudación | Sal de las sesiones y vuelve a ellas con `/resume` y, opcionalmente, sigue una sesión local desde otro dispositivo con `/remote` |
-| [8. Crear, revisar y combinar][lesson-8] | Revisión | Crea y combina una solicitud de incorporación de cambios con `/pr create` y `/pr agentmerge` |
+| [8. Crear, revisar y fusionar][lesson-8] | Revisión | Crea y fusiona una solicitud de incorporación de cambios con `/pr create` y `/pr agentmerge` |
 | [9. Delegar trabajo][lesson-9] | Delegación | Entrega una nueva funcionalidad a `/delegate` y sigue una sesión en la nube |
 | [10. Repaso y pasos siguientes][lesson-10] | Repaso | Repasa el flujo de trabajo y sigue aprendiendo |
 

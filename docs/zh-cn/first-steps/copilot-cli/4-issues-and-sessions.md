@@ -26,7 +26,7 @@ Review the space quiz and create three focused GitHub issues with clear titles, 
 ## 在当前会话中处理第一个议题
 
 1. 按 <kbd>Left arrow</kbd> 键打开侧面板，然后按 <kbd>Tab</kbd> 切换到 **Issues** 选项卡。
-2. 高亮选中第一个议题，按 <kbd>c</kbd> 将其作为上下文添加到聊天。要先阅读完整议题，则按 <kbd>Enter</kbd>。
+2. 选中第一个议题，按 <kbd>c</kbd> 将其作为上下文添加到聊天。要先阅读完整议题，则按 <kbd>Enter</kbd>。
 3. 让智能体实现该议题。
 
 ![终端中的 Copilot CLI 侧面板示意图。顶部有 Current、Sessions、Issues、Pull requests 和 Gists 选项卡，其中 Issues 已选中。针对 space-quiz 存储库未关闭议题的搜索筛选显示一个议题：Add a score screen at the end of the quiz。提示说明 Left arrow 键用于打开面板，Tab 用于切换选项卡；底部列出快捷键：斜杠用于搜索，Enter 查看详情，o 打开，w 创建工作树，c 添加到聊天，a 显示全部。](../../../_images/first-steps-cli-side-panel.svg)
